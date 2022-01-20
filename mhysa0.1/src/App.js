@@ -6,6 +6,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MhysaClass from './pages/MhysaClass';
 import MhysaSpeakers from './pages/MhysaSpeakers';
 import Blog from './pages/Blog';
+import Login from './pages/Login';
+import SignUp from './pages/SignUp';
 
 function App() {
   return (
@@ -17,6 +19,11 @@ function App() {
         <Route path="/mhysaClass" element={<MhysaClass/>} />
         <Route path="/mhysaSpeakers" element={<MhysaSpeakers/>} />
         <Route path="/blog" element={<Blog/>} />
+        <Route path="/sign-in" element={<Login/>} />
+        <Route path="/sign-up" element={<SignUp/>} />
+
+
+
 
 
 

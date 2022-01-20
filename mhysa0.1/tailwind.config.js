@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        'blue-one': '#223844'
+        'blue-one': '#223844',
+        'yellowOne': '#FAB400'
       },
       fontFamily:{
         'Lato': ['Lato', 'sans-serif']

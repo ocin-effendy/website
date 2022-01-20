@@ -1,7 +1,5 @@
 import React, {useState} from 'react';
 import logo from "./../../asset/image/logo.svg";
-import menu from "./../../asset/image/menu.svg";
-import close from "./../../asset/image/close.svg";
 
 
 
