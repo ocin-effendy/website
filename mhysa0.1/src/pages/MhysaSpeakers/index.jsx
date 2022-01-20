@@ -1,17 +1,17 @@
 import React, { Component } from 'react'
 import Nav from '../../component/Nav/index';
 
-class Home extends Component {
-    pathname = window.location.pathname
+class MhysaSpeakers extends Component {
+    pathname = window.location.pathname;
     
     render() {
         return (
             <div>
                 <Nav data={this.pathname}/>
-                <h1>Ini halaman home</h1>
+                <h1>Ini halaman Speakers</h1>
             </div>
         )
     }
 }
 
-export default Home;
+export default MhysaSpeakers;

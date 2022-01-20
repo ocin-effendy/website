@@ -1,6 +1,7 @@
 module.exports = {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}"
+    "./src/**/*.{js,jsx,ts,tsx, html}",
+    "./**/*.{js}"
   ],
   theme: {
     extend: {
@@ -9,7 +10,8 @@ module.exports = {
       },
       fontFamily:{
         'Lato': ['Lato', 'sans-serif']
-      }
+      },
+      
     },
   },
   plugins: [],
