@@ -14,19 +14,13 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="/aboutUs" element={<About />} />
+        <Route path="/aboutUs" element={<About/>} />
         <Route path="/contactUs" element={<Contact/>} />
         <Route path="/mhysaClass" element={<MhysaClass/>} />
         <Route path="/mhysaSpeakers" element={<MhysaSpeakers/>} />
         <Route path="/blog" element={<Blog/>} />
         <Route path="/sign-in" element={<Login/>} />
         <Route path="/sign-up" element={<SignUp/>} />
-
-
-
-
-
-
       </Routes>
   </BrowserRouter>
     
