@@ -1,15 +1,15 @@
 import React, { Component } from 'react'
-import Nav from '../../component/Nav/index';
+import Layout from '../../component/Layout';
+
 
 class MhysaSpeakers extends Component {
     pathname = window.location.pathname;
     
     render() {
         return (
-            <div>
-                <Nav data={this.pathname}/>
-                <h1>Ini halaman Speakers</h1>
-            </div>
+            <Layout address={this.pathname}>
+                <h1>Ini adalah halaman Mhysa Speakers</h1>
+            </Layout>
         )
     }
 }

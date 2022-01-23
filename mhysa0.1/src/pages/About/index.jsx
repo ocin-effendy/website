@@ -1,14 +1,14 @@
-import React, { Component } from 'react'
-import Nav from '../../component/Nav';
+import React, { Component } from 'react';
+import Layout from '../../component/Layout';
+
 
 class About extends Component {
     pathname = window.location.pathname
     render() {
         return (
-            <div>
-                <Nav data={this.pathname}/>
-                <h1>Ini halaman About</h1>
-            </div>
+            <Layout address={this.pathname}>
+                <h1>Ini adalah halaman About</h1>
+            </Layout>
         )
     }
 }

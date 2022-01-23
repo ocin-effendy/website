@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Hero from '../../component/Hero';
-import Nav from '../../component/Nav/index';
+import Layout from '../../component/Layout';
 
 
 class Home extends Component {
@@ -8,10 +8,9 @@ class Home extends Component {
     
     render() {
         return (
-            <div>
-                <Nav data={this.pathname}/>
+            <Layout address={this.pathname}>
                 <Hero/>
-            </div>
+            </Layout>
         )
     }
 }

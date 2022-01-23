@@ -1,5 +1,6 @@
-import React, { Component } from 'react'
-import Nav from '../../component/Nav/index';
+import React, { Component } from 'react';
+import Layout from '../../component/Layout';
+
 
 class Blog extends Component {
     pathname = window.location.pathname;
@@ -7,10 +8,9 @@ class Blog extends Component {
     render() {
         console.log("ini alamaatnya cok : " + this.pathname)
         return (
-            <div>
-                <Nav data={this.pathname}/>
-                <h1>Ini halaman Blog</h1>
-            </div>
+            <Layout address={this.pathname}>
+                <h1>Ini adalah halaman blog</h1>
+            </Layout>
         )
     }
 }
