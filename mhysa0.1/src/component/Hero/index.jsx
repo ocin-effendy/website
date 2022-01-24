@@ -13,9 +13,9 @@ SwiperCore.use([Autoplay,Pagination,Navigation]);
 
 function Hero() {
   return (
-    <div className="block w-4/5 mx-auto my-5">
+    <div className="block w-11/12 md:w-4/5 mx-auto my-5">
                 
-        <Swiper autoplay={{"delay": 3000,"disableOnInteraction": false}} slidesPerView={1} 
+        <Swiper autoplay={{"delay": 5000,"disableOnInteraction": false}} slidesPerView={1} 
         spaceBetween={30} loop={true} pagination={{ "clickable": true}}  className="mySwiper"> 
         
             <SwiperSlide>

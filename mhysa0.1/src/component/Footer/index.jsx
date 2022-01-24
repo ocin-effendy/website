@@ -39,15 +39,15 @@ function Footer() {
 
 
               <div className="flex flex-col md:w-1/4 sm:px-16 md:py-5 text-white">
-                    <h3 className='my-2'>Media Partner</h3>
-                    <div className="flex justify-between">
+                    <h3 className='my-2 text-center md:text-left'>Media Partner</h3>
+                    <div className="flex justify-evenly md:justify-between">
                         <img className='md:w-8 md:h-8' src={icon_footer1} alt="icon"/>
                          <img className='md:w-8 md:h-8' src={icon_footer2} alt="icon"/>
                          <img className='md:w-8 md:h-8' src={icon_footer3} alt="icon"/>
                     </div>
 
-                    <h3 className='my-2'>Commudity</h3>
-                    <div className="flex justify-between">
+                    <h3 className='my-2 text-center md:text-left'>Commudity</h3>
+                    <div className="flex justify-evenly md:justify-between">
                         <img className='md:w-8 md:h-8' src={icon_footer1} alt="icon"/>
                         <img className='md:w-8 md:h-8' src={icon_footer2} alt="icon"/>
                         <img className='md:w-8 md:h-8' src={icon_footer3} alt="icon"/>
