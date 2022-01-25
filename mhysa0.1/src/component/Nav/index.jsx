@@ -11,8 +11,8 @@ export default function Nav(props) {
 
     
     return (
-        <div className="w-full font-Lato flex items-center" >
-            <nav className='md:flex md:w-4/5 w-11/12  mx-auto md:justify-between md:items-center py-2 '>
+        <div className="w-full overflow-x-hidden font-Lato flex items-center " >
+            <nav className='md:flex lg:w-4/5 w-11/12  mx-auto md:justify-between md:items-center py-2 '>
                 <div className="flex flex-row items-center justify-between">
                     <div className="flex items-center">
                         <img src={logo} alt="logo" />

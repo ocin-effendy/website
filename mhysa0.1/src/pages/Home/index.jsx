@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
-import Class from '../../component/Card/Class';
 import Hero from '../../component/Hero';
 import Layout from '../../component/Layout';
+import OurSpeakers from '../../part/OurSpeakers';
 import Patners from '../../part/Partners';
 import PopularClass from '../../part/PopularClass';
+import Testimoni from '../../part/Testimoni';
 
 
 class Home extends Component {
@@ -15,6 +16,8 @@ class Home extends Component {
                 <Hero/>
                 <Patners />
                 <PopularClass />
+                < OurSpeakers />
+                < Testimoni />
             </Layout>
         )
     }

@@ -9,9 +9,8 @@ function PopularClass() {
               <Class />
               <Class />
               <Class />
-          </div>
-
-      </div>
+            </div>
+        </div>
   )
 }
 

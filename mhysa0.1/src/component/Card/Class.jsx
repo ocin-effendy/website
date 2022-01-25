@@ -30,7 +30,7 @@ function Class() {
           </div>
 
           <div className="hidden md:flex border-y border-indigo-900 mt-2">
-              <div className="w-10 h-10   md:w-20 md:h-20">
+              <div className="w-10 h-10  md:w-20 md:h-20">
                 <img className='object-contain' src="/image/mentor.jpg" alt="mentor" />
               </div>
               <div className="py-1 md:py-3 px-3 text-blue-one text-xs md:text-base">
