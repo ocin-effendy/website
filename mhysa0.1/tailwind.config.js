@@ -23,7 +23,22 @@ module.exports = {
       },
       fontSize: {
         'exsm': '10px',
-        'suxs': '7px'
+        'suxs': '7px',
+        'xxxs': '5px'
+      },  
+      screens: {
+        'exsmall': '490px',
+        'small': '640px',
+        'medium': '768px',
+        'large': '1024px',
+        'xllarge': '1280px'
+        
+      },
+      width: {
+        '128': '30rem',
+      },
+      height: {
+        '128': '32rem',
       }
       
       

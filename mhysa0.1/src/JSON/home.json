@@ -1,0 +1,184 @@
+{
+    "popularClass": [
+        {
+            "_id": "asd1293uasdads1",
+            "imageUrl": "image/img-card1.jpg",
+            "type": "UI / UX Design",
+            "date": "6/9/2021",
+            "title": "Introduction Figma Prototype",
+            "time": "12.00-14.00",
+            "members": 12,
+            "imageMentor": "image/mentor.jpg",
+            "nameMentor": "Michel Jhones",
+            "experienceJob": "Gojek, Dana",
+            "price": "Rp. 180.000",
+            "kind": "Design",
+            "acces": "1 Bulan"
+        },
+        {
+            "_id": "asd1293uasdads1",
+            "imageUrl": "image/img-card1.jpg",
+            "type": "Programing",
+            "date": "6/9/2021",
+            "title": "Introduction Basic Program",
+            "time": "15.00-17.00",
+            "members": 17,
+            "imageMentor": "image/mentor.jpg",
+            "nameMentor": "Rana Mishel",
+            "experienceJob": "Tokopedia",
+            "price": "Rp. 275.000",
+            "kind": "Programing",
+            "acces": "3 Bulan"
+        },
+        {
+            "_id": "asd1293uasdads1",
+            "imageUrl": "image/img-card1.jpg",
+            "type": "Digital Marketing",
+            "date": "6/9/2021",
+            "title": "Concept Marketing in Digital",
+            "time": "08.00-10.00",
+            "members": 9,
+            "imageMentor": "image/mentor.jpg",
+            "nameMentor": "Marsyanda Rahmawati",
+            "experienceJob": "Traveloka",
+            "price": "Rp. 230.000",
+            "kind": "Marketing",
+            "acces": "2 Bulan"
+        }
+    ],
+    "ourSpeakers": [
+        {
+            "_id": "asd1293uasdads1",
+            "imageUrl": "image/mentor.jpg",
+            "name": "Ahmad Yusufanda",
+            "position": "Mentor Dikalearn",
+            "job": "Content Creation",
+            "iconSkills": [
+                {
+                    "icon": "image/icon_speaker.jpg",
+                    "descIcon": "Spekaker"
+                },
+                {
+                    "icon": "image/icon_design.jpg",
+                    "descIcon": "Design"
+                },
+                {
+                    "icon": "image/icon_userPersona.jpg",
+                    "descIcon": "Persona"
+                }
+            ],
+            "skills": "Design Thinking, Problem Solving, Empathy, User Persona"
+        },
+        {
+            "_id": "asd1293uasdads1",
+            "imageUrl": "image/mentor.jpg",
+            "name": "Reina Diana Dewi",
+            "position": "Head Mentor Dikalearn",
+            "job": "Management Members",
+            "iconSkills": [
+               
+                {
+                    "icon": "image/icon_design.jpg",
+                    "descIcon": "Design"
+                },
+                {
+                    "icon": "image/icon_userPersona.jpg",
+                    "descIcon": "Persona"
+                },
+                {
+                    "icon": "image/icon_presentation.jpg",
+                    "descIcon": "Meet"
+                }
+            ],
+            "skills": "Design Thinking, Problem Solving, Empathy, User Persona"
+        },
+        {
+            "_id": "asd1293uasdads1",
+            "imageUrl": "image/mentor.jpg",
+            "name": "Hardianto Sufani",
+            "position": "CEO DikaLearn",
+            "job": "Product Manager",
+            "iconSkills": [
+                {
+                    "icon": "image/icon_speaker.jpg",
+                    "descIcon": "Spekaker"
+                },
+                {
+                    "icon": "image/icon_design.jpg",
+                    "descIcon": "Design"
+                },
+                {
+                    "icon": "image/icon_userPersona.jpg",
+                    "descIcon": "Persona"
+                },
+                {
+                    "icon": "image/icon_presentation.jpg",
+                    "descIcon": "Meet"
+                }
+            ],
+            "skills": "Design Thinking, Problem Solving, Empathy, User Persona"
+        }
+    ],
+    "testimoni": {
+        "alumni": [
+            {
+                "_id": "asd1293uasdads1",
+                "title": "Kata Alumni",
+                "desc": "Ikut kelas di Mhysa itu materinyadaging semua. Pematerinya jugaahlinya ahli, jadi kami tuh mudah memahami kelasnya. Kelasnya recomended bagi kalian yang baru belajar, dijamin deh heheheh",
+                "imageTesti": "image/mentor.jpg",
+                "name": "Marsyanda",
+                "as": "Alumni Programing Class"
+            },
+            {
+                "_id": "asd1293uasdads1",
+                "title": "Kata Alumni",
+                "desc": "Terimakasih Mhysa yang telah memberi ilmu baru terhadap saya. kalian jugab dapat kok, maka dari itu cepat daftar teman-teman.",
+                "imageTesti": "image/mentor.jpg",
+                "name": "Ahmad Yusuf Mansyur",
+                "as": "Alumni UI/UX Class"
+            },
+            {
+                "_id": "asd1293uasdads1",
+                "title": "Kata Alumni",
+                "desc": "Big Thanks for Mhysa. Am personaly dont have programing skills, so am looking some progtaming course but doesn't have a good contet. And than i found Mhysa course am so excited cause the content its so interest.",
+                "imageTesti": "image/mentor.jpg",
+                "name": "Alexander",
+                "as": "Alumni UI/UX Class"
+            },
+            {
+                "_id": "asd1293uasdads1",
+                "title": "Kata Alumni",
+                "desc": "Terimakasih Mhysa. Semenjak saya belajar di Mhysa saya lebih paham mengenai data struktur yang rumit ini, penjelasannya detail sekali sehingga mudah dipahami oleh orang yang baru saja belajar data struktur. Terimakasih Mhysaaaaaaaa.",
+                "imageTesti": "image/mentor.jpg",
+                "name": "Ananda Risky",
+                "as": "Alumni Data Structure Class"
+            }
+        ],
+        "pembicara": [
+            {
+                "_id": "asd1293uasdads1",
+                "title": "Kata Pembicara",
+                "desc": "Terimakasih banyak Mhysa telah memberi ilmu yang lengkap menjadi pembicara yang lebih baik. Semenjak belajar di Mhysa saya semakin yakin kalau ilmu diluar sana masih banyak, sehingga kita harus terus belajar",
+                "imageTesti": "image/mentor.jpg",
+                "name": "Winda Syarani",
+                "as": "MC Event"
+            },
+            {
+                "_id": "asd1293uasdads1",
+                "title": "Kata Pembicara",
+                "desc": "Menjadi pembicara sangatlah susah, tetapi setelah belajar di Mhysa otomatis saya menjadi seorang yang lebih percaya diri dan mengetahui bagaimana cara menjalankan event yang kecil maupun besar. Thanks Mhysa",
+                "imageTesti": "image/mentor.jpg",
+                "name": "Yani Wirandani",
+                "as": "Pembicara event organitation"
+            },
+            {
+                "_id": "asd1293uasdads1",
+                "title": "Kata Pembicara",
+                "desc": "Setelah gabung di Mhysa, saya di notice begitu cepat hingga mendapatkan invitation sebagai speaker event #personalbranding",
+                "imageTesti": "image/mentor.jpg",
+                "name": "Ahmad Bashor",
+                "as": "Pembicara personal branding Mhysa Learning"
+            }
+        ]
+    }
+}
