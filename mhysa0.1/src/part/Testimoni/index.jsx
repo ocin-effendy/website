@@ -52,7 +52,7 @@ function Testimoni({data}) {
                                             <p className="text-suxs exsmall:text-suxs small:text-exsm large:text-base">{e.desc}</p>
                                         </div>
                                         <div className="flex items-center">
-                                            <img className='w-5 h-5 exsmall:w-8 exsmall:h-8 small:w-12 small:h-12 medium:w-14 medium:h-14 small:rounded-md   large:w-20 large:h-20 rounded-sm large:rounded-lg' src={e.imageTesti} alt="mentor" />
+                                            <img className='w-6 h-6 exsmall:w-8 exsmall:h-8 small:w-12 small:h-12 medium:w-14 medium:h-14 small:rounded-md   large:w-20 large:h-20 rounded-sm large:rounded-lg' src={e.imageTesti} alt="mentor" />
                                             <div className="mx-1 small:mx-3 large:mx-5 text-xxxs exsmall:text-suxs small:text-exsm medium:text-xs large:text-base">
                                                 <h5>{e.name}</h5>
                                                 <p>{e.as}</p>
@@ -104,7 +104,7 @@ function Testimoni({data}) {
                                             <p className="text-suxs exsmall:text-suxs small:text-exsm large:text-base">{e.desc}</p>
                                         </div>
                                         <div className="flex items-center">
-                                            <img className='w-5 h-5 exsmall:w-8 exsmall:h-8 small:w-12 small:h-12 medium:w-14 medium:h-14 small:rounded-md   large:w-20 large:h-20 rounded-sm large:rounded-lg' src={e.imageTesti} alt="mentor" />
+                                            <img className='w-6 h-6 exsmall:w-8 exsmall:h-8 small:w-12 small:h-12 medium:w-14 medium:h-14 small:rounded-md   large:w-20 large:h-20 rounded-sm large:rounded-lg' src={e.imageTesti} alt="mentor" />
                                             <div className="mx-1 small:mx-3 large:mx-5 text-xxxs exsmall:text-suxs small:text-exsm medium:text-xs large:text-base">
                                                 <h5>{e.name}</h5>
                                                 <p>{e.as}</p>

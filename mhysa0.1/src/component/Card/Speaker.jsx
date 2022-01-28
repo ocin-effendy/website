@@ -11,7 +11,7 @@ function Speaker({data}) {
         <h3 className='font-semibold text-blue-one md:my-3 text-exsm md:text-base'>{data.name}</h3>
         <div className="mb-1 md:mb-8 lg:mb-16">
             <h1 className='text-yellowOne md:text-2xl text-xs'>{data.position}</h1>
-            <h4 className='text-blue-one text-exsm md:text-sm font-semibold'>{data.job}</h4>
+            <h1 className='text-blue-one text-suxs md:text-sm font-semibold'>{data.job}</h1>
         </div>
 
         <div className=" hidden md:flex justify-center relative my-2">
