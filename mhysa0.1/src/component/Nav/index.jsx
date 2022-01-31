@@ -27,10 +27,10 @@ export default function Nav(props) {
                    </button>
                 </div>
 
-                <div className={`${isOpen ? 'opacity-100' : 'opacity-0'} w-full mt-1 md:mt-0 left-0 md:w-fit md:opacity-100 bg-slate-50 md:bg-transparent  absolute md:static md:flex flex-col md:flex-row transition-all duration-500 z-10`}>
+                <div className={`${isOpen ? 'opacity-100' : 'opacity-0 -z-50'} w-full mt-1 md:mt-0 left-0 md:w-fit md:opacity-100 bg-slate-50 md:bg-transparent  absolute md:static md:flex flex-col md:flex-row transition-all duration-500 z-10`}>
                     <ul className='flex flex-col md:flex-row items-center'>
                         <li className={`${props.data === '/' ? 'border-b-2' : ''} mx-4 w-full text-center md:w-fit flex flex-col py-1 border-indigo-900`}>
-                            <a  href="/" className='text-blue-one text-sm px-20 py-3 md:p-0' >Home</a>
+                            <a href="/" className='text-blue-one text-sm px-20 py-3 md:p-0' >Home</a>
                         </li>
                         <li className='mx-4 flex flex-col py-1'>
                             <div className="relative inline-block px-44 py-3 md:p-0">

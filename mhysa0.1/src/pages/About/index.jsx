@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
 import Layout from '../../component/Layout';
+import Hero from '../../component/Hero';
+import TitleAbout from '../../part/TitleAbout';
+import dataAbout from '../../JSON/about.json';
+import DescAbout from '../../part/DescAbout';
+import Patners from '../../part/Partners';
 
 
 class About extends Component {
@@ -7,7 +12,10 @@ class About extends Component {
     render() {
         return (
             <Layout address={this.pathname}>
-                <h1>Ini adalah halaman About</h1>
+                < Hero />
+                < TitleAbout />
+                < DescAbout data={dataAbout} />
+                < Patners />
             </Layout>
         )
     }

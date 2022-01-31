@@ -20,7 +20,7 @@ class Home extends Component {
                 <PopularClass data={dataCard} />
                 <OurSpeakers data={dataCard}  />
                 <Testimoni data={dataCard.testimoni} />
-                < Impress />
+                <Impress />
             </Layout>
         )
     }
