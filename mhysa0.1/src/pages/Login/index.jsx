@@ -1,12 +1,37 @@
-import React, { Component } from 'react';
+import React, { Component, useState } from 'react';
+import {useNavigate} from "react-router-dom";
 import logo from "./../../asset/image/logo.svg";
 import loginPage from "../../asset/image/login.jpg";
 import ButtonLogin from '../../component/ButtonLogin';
 import GoogleLogin from '../../component/GoogleLogin';
 
 
-class Login extends Component {
-  render() {
+
+function Login () {
+
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+    const navigate = useNavigate();
+
+    // const handleTextChange = (e) => {
+    //     setState({
+    //         [e.target.id]: e.target.value
+    //     })
+    // }
+
+    const handleSendData = () => {
+
+        const userData = {
+            email: email,
+            password: password
+        }
+        localStorage.setItem('userData', JSON.stringify(userData));
+        setEmail('');
+        setPassword('');
+        navigate(-1);
+    }
+
+
     return (
         <div className='w-full h-full overflow-hidden'>
             <div className="flex items-center w-4/5 mx-auto my-4">
@@ -28,9 +53,9 @@ class Login extends Component {
 
                     <div className="flex flex-col md:w-96">
                         <label className='m-3 text-sm md:text-base'>Email</label>
-                        <input className='pl-5 py-2 border-2 rounded-lg outline-none' type="email" id="email" placeholder="Ex : name@example.com" required />
+                        <input className='pl-5 py-2 border-2 rounded-lg outline-none' type="email" id="email" placeholder="Ex : name@example.com" value={email} onInput={e => setEmail(e.target.value)}  required />
                         <label className='m-3 text-sm md:text-base'>Password</label>
-                        <input className='px-3 py-2 border-2 rounded-lg outline-none'  type="password" id="password" placeholder="Ex : password"required />
+                        <input className='px-3 py-2 border-2 rounded-lg outline-none'  type="password" id="password" placeholder="Ex : password" value={password} onInput={e => setPassword(e.target.value)} required />
                     </div>
 
                    
@@ -43,7 +68,8 @@ class Login extends Component {
                         <a className="underline font-light text-blue-600 text-xs md:text-sm" href="#">Lupa kata sandi</a>
                     </div>
 
-                    < ButtonLogin />
+                    < ButtonLogin data={handleSendData} />
+                    <button className='py-3 px-4 bg-blue-one text-white' onClick={handleSendData}>send cokkk</button>
 
                 </div>
             </div>
@@ -51,7 +77,7 @@ class Login extends Component {
         </div>
     )
         
-  }
+  
 }
 
 export default Login;

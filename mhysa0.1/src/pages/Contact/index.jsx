@@ -8,10 +8,25 @@ import icon_instagram from "../../asset/image/icon_instagram.svg";
 
 
 class Contact extends Component {
-    pathname = window.location.pathname
+    pathname = window.location.pathname;
+    state = {
+        email: '',
+        password: ''
+    }
+
+    componentDidMount() {
+        const userData = JSON.parse(localStorage.getItem('userData'));
+        if (userData != undefined) {
+            this.setState({
+                email: userData.email,
+                password: userData.password
+            })
+        }
+    }
+    
     render() {
         return (
-            <Layout address={this.pathname}>
+            <Layout address={this.pathname} data={this.state}>
                 <div className="flex flex-col-reverse md:flex-row w-11/12 md:w-4/5 mx-auto items-center justify-between my-10 md:my-20">
                     <div className="text-center md:text-left mt-12"> 
                         <h1 className='font-semibold text-xl md:text-4xl text-blue-one'>Kontak Kami</h1>

@@ -41,7 +41,7 @@ function Testimoni({data}) {
                     <h1 className='font-semibold text-exsm small:text-sm large:text-2xl'>Apa kata alumni setelah mengikuti kelas online</h1>
                     <img className='w-5 small:w-8 large:w-10 ' src={arrowRight} alt="arrowRight" />
                 </div>
-                <div className="relative w-3/5 h-28 exsmall:h-36 small:h-48 medium:h-56 large:h-96  bg-white rounded-lg small:rounded-xl large:rounded-3xl shadow-2xl shadow-gray-500" >
+                <div className="relative w-3/5 h-28 exsmall:h-36 small:h-48 medium:h-56 large:h-96  bg-white rounded-lg small:rounded-xl large:rounded-large shadow-2xl shadow-gray-500" >
                     {
                         data.alumni.map((e, i) => {
                             if (e.title === "Kata Alumni") {
@@ -52,7 +52,7 @@ function Testimoni({data}) {
                                             <p className="text-suxs exsmall:text-suxs small:text-exsm large:text-base">{e.desc}</p>
                                         </div>
                                         <div className="flex items-center">
-                                            <img className='w-6 h-6 exsmall:w-8 exsmall:h-8 small:w-12 small:h-12 medium:w-14 medium:h-14 small:rounded-md   large:w-20 large:h-20 rounded-sm large:rounded-lg' src={e.imageTesti} alt="mentor" />
+                                            <img className='w-6 h-6 exsmall:w-8 exsmall:h-8 small:w-12 small:h-12 medium:w-14 medium:h-14 small:rounded-md  large:w-20 large:h-20 rounded-sm large:rounded-2xl' src={e.imageTesti} alt="mentor" />
                                             <div className="mx-1 small:mx-3 large:mx-5 text-xxxs exsmall:text-suxs small:text-exsm medium:text-xs large:text-base">
                                                 <h5>{e.name}</h5>
                                                 <p>{e.as}</p>
@@ -74,7 +74,7 @@ function Testimoni({data}) {
                                     return <button
                                             key={`button-alumni-${i}`}
                                             onClick={() => moveSLiderAlumni(i)}
-                                            className={`${state.count1 === i ? 'bg-blue-one' : ''} w-1 h-1 small:w-2 small:h-2 large:w-3 large:h-3 mx-1  rounded-full ring-1 ring-offset-1 ring-blue-one transition-all duration-500 ease-out`}
+                                            className={`${state.count1 === i ? 'bg-blue-one' : ''} w-1 h-1 small:w-2 small:h-2 large:w-3 large:h-3 mx-1 medium:mx-2 rounded-full ring-1 ring-offset-1 ring-blue-one transition-all duration-500 ease-out`}
                                             />
                                 }
                             })
@@ -93,7 +93,7 @@ function Testimoni({data}) {
 
         <div className="flex justify-center items-center">
             <div className="flex justify-between w-11/12 exsmall:w-4/5 mx-auto absolute">
-                <div className="relative w-3/5 h-28 exsmall:h-36 small:h-48 medium:h-56 large:h-96  bg-white rounded-lg small:rounded-xl large:rounded-3xl shadow-2xl shadow-gray-500" >
+                <div className="relative w-3/5 h-28 exsmall:h-36 small:h-48 medium:h-56 large:h-96 bg-white rounded-lg small:rounded-xl large:rounded-large shadow-2xl shadow-gray-500" >
                     {
                         data.pembicara.map((e, i) => {
                             if (e.title === "Kata Pembicara") {
@@ -104,7 +104,7 @@ function Testimoni({data}) {
                                             <p className="text-suxs exsmall:text-suxs small:text-exsm large:text-base">{e.desc}</p>
                                         </div>
                                         <div className="flex items-center">
-                                            <img className='w-6 h-6 exsmall:w-8 exsmall:h-8 small:w-12 small:h-12 medium:w-14 medium:h-14 small:rounded-md   large:w-20 large:h-20 rounded-sm large:rounded-lg' src={e.imageTesti} alt="mentor" />
+                                            <img className='w-6 h-6 exsmall:w-8 exsmall:h-8 small:w-12 small:h-12 medium:w-14 medium:h-14 small:rounded-xl large:w-20 large:h-20 rounded-sm large:rounded-2xl' src={e.imageTesti} alt="mentor" />
                                             <div className="mx-1 small:mx-3 large:mx-5 text-xxxs exsmall:text-suxs small:text-exsm medium:text-xs large:text-base">
                                                 <h5>{e.name}</h5>
                                                 <p>{e.as}</p>
@@ -126,7 +126,7 @@ function Testimoni({data}) {
                                     return <button
                                             key={`button-pembicara-${i}`}
                                             onClick={() => moveSLiderPembicara(i)}
-                                            className={`${state.count2 === i ? 'bg-blue-one' : ''} w-1 h-1 small:w-2 small:h-2 large:w-3 large:h-3 mx-1  rounded-full ring-1 ring-offset-1 ring-blue-one transition-all duration-500 ease-out`}
+                                            className={`${state.count2 === i ? 'bg-blue-one' : ''} w-1 h-1 small:w-2 small:h-2 large:w-3 large:h-3 mx-1 medium:mx-2 rounded-full ring-1 ring-offset-1 ring-blue-one transition-all duration-500 ease-out`}
                                             />
                                 }
                             })

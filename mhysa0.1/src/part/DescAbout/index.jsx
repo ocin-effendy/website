@@ -61,9 +61,9 @@ function DescAbout({data}) {
                 }
                 
     
-                <div className="absolute w-1/2 flex justify-between bottom-0 right-0 px-2 exsmall:px-5 medium:px-10 large:px-16">
+                <div className="absolute w-1/2 flex justify-between items-center bottom-0 right-0 px-2 exsmall:px-5 medium:px-10 large:px-16">
                     <ButtonSlider onClick1={handleNext} onClick2={handlePrev} value={state.value}/>
-                    <a className='px-2 py-1 medium:px-3 large:py-2 text-blue-one font-semibold bg-orange-200 rounded-sm large:rounded-md text-xxxs exsmall:text-suxs medium:text-sm large:text-base ' href="#">View All Class</a>
+                    <a className='px-2 py-1 medium:px-3 h-full large:py-2 text-blue-one font-semibold bg-orange-200 rounded-sm large:rounded-md text-xxxs exsmall:text-suxs medium:text-sm large:text-base ' href="#">View All Class</a>
                 </div>
             </div>
 

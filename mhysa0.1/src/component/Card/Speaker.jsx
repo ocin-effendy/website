@@ -3,7 +3,7 @@ import IconSkills from '../IconSkills';
 
 function Speaker({data}) {
   return (
-    <div className="flex py-2 md:py-8 text-center flex-col w-24 sm:w-32 md:w-60 lg:w-80 border border-yellowOne rounded-lg cursor-pointer font-Lato">
+    <div className="flex my-5 lg:my-10 lg:mx-5  py-2 md:py-8 text-center flex-col w-24 sm:w-32 md:w-60 lg:w-80 border border-yellowOne overflow-hidden rounded-xl md:rounded-2xl shadow-sm cursor-pointer font-Lato transition-all duration-300 hover:-translate-y-1">
         <div className="w-fit mx-auto">
             <img className='object-contain rounded-full w-11 h-11 md:w-32 md:h-32 ' src={data.imageUrl} alt="speaker" />
         </div>
@@ -15,11 +15,10 @@ function Speaker({data}) {
         </div>
 
         <div className=" hidden md:flex justify-center relative my-2">
-           
             {
                 data.iconSkills.map((e, i) => {
                     return (
-                        < IconSkills e={e} i={i} />
+                        < IconSkills e={e} i={i} key={`icon-${i}`}/>
                     )
                 })
             }
