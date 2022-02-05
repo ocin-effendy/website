@@ -29,12 +29,12 @@ componentDidMount() {
     console.log("ini alamat mhysa ga : " + this.pathname);
     console.log('ini isi modal redux : ' + this.props.modal);
     return (
-      <>
-        < Modal status={this.props.modal} address={this.pathname} />
+
         <Layout address={this.pathname} data={this.state}>
+          < Modal status={this.props.modal} address={this.pathname} />
           <MhysaClassContent data={dataAllCard} lastNumber={lastNumber} email={this.state.email} />
         </Layout>
-      </>
+    
     );
   }
 }
@@ -43,21 +43,6 @@ const stateRedux = (state) => ({
   modal: state.statusModal
 });
 
-// function mapStateToProps(state) {
-//   return {
-//     modal: state.statusModal
-//   }
-// }
 
-// function mapStateToProps(state) {
-//   const  cok = state;
-//   return { modal: cok.statusModal }
-// }
-
-// const mapStateToProps = state => {
-//   return {
-//     modal: state.status
-//   };
-// };
 
 export default connect(stateRedux, null)(MhysaClass);

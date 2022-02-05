@@ -59,6 +59,7 @@ function MhysaClassContent({ data, lastNumber, email }) {
       title: e.target.name,
       number: countData,
     });
+    setIsProgram(false)
   };
 
   const returnCard = (e, i) => {
@@ -72,7 +73,7 @@ function MhysaClassContent({ data, lastNumber, email }) {
   return (
     <div className="w-11/12 sm:w-4/5 mx-auto my-10 md:my-20">
       <div className="flex justify-between items-center">
-        <div className="relative inline-block py-3 md:p-0">
+        <div className="relative inline-block py-3 md:p-0 z-0">
           <button
             onClick={() => setIsProgram(!isProgram)}
             className="relative border border-blue-one rounded-md z-10 flex items-center p-1 md:p-2 text-sm text-blue-one "
@@ -103,7 +104,7 @@ function MhysaClassContent({ data, lastNumber, email }) {
                 />
               </svg>
             </div>
-            </button>
+          </button>
 
           <div className={`${ isProgram ? "block" : "hidden"} absolute z-20 w-40 py-2 mt-1 overflow-hidden bg-white rounded-md shadow-xl dark:bg-gray-800 px-1`}>
             <button

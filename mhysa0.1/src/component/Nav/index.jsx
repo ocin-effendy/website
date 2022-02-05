@@ -1,15 +1,13 @@
 import React, {useState} from 'react';
-import {useNavigate} from "react-router-dom"
 import logo from "./../../asset/image/logo.svg";
 import { HiOutlineFolderOpen } from "react-icons/hi";
-import { FiEdit } from "react-icons/fi";
+import {  BsBoxArrowLeft } from "react-icons/bs";
 
 
 function Nav(props) {
     const [isOpen, setIsOpen] = useState(false);
     const [isProgram, setIsProgram] = useState(false);
     const [isEmail, setIsEmail] = useState(false);
-    const navigate = useNavigate();
     
 
     const deleteLocalStorage = () => {
@@ -40,7 +38,7 @@ function Nav(props) {
                    </button>
                 </div>
 
-                <div className={`${isOpen ? 'opacity-100 ' : 'opacity-0 -z-20'} md:z-20 w-full mt-1 md:mt-0 left-0 md:w-fit md:opacity-100 bg-slate-50 md:bg-transparent  absolute md:static md:flex flex-col md:flex-row items-center transition-all duration-500 z-20`}>
+                <div className={`${isOpen ? 'opacity-100 ' : 'opacity-0 -z-30'} md:z-20 w-full mt-1 md:mt-0 left-0 md:w-fit md:opacity-100 bg-slate-50 md:bg-transparent  absolute md:static md:flex flex-col md:flex-row items-center transition-all duration-500 z-20`}>
                     <ul className='flex flex-col md:flex-row items-center'>
                         <li className={`${props.address === '/' ? 'border-b-2' : ''} mx-4 w-full text-center md:w-fit flex flex-col py-1 border-indigo-900`}>
                             <a href="/" className='text-blue-one text-sm px-20 py-3 md:p-0' >Home</a>
@@ -160,7 +158,7 @@ function Nav(props) {
                                             className="flex items-center w-full  py-3 text-sm text-gray-600 capitalize transition-colors duration-200 transform  hover:bg-gray-300 border-indigo-900"
                                             onClick={deleteLocalStorage}
                                             >
-                                                < FiEdit  className="w-5 h-5 mr-1" />
+                                                < BsBoxArrowLeft className="w-5 h-5 mr-1" />
                                                 Log Out
                                             </button>
                                             

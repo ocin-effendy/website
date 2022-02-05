@@ -2,7 +2,7 @@
     "popularClass": [
         {
             "_id": "asd1293uasdads1",
-            "imageUrl": "image/img-card1.jpg",
+            "imageUrl": "image/img-ex.jpg",
             "type": "UI / UX Design",
             "date": "6/9/2021",
             "title": "Introduction Figma Prototype",
@@ -11,7 +11,7 @@
             "imageMentor": "image/mentor.jpg",
             "nameMentor": "Michel Jhones",
             "experienceJob": "Gojek, Dana",
-            "price": "Rp. 180.000",
+            "price": "180000",
             "kind": "Design",
             "acces": "1 Bulan"
         },
@@ -26,13 +26,13 @@
             "imageMentor": "image/mentor.jpg",
             "nameMentor": "Rana Mishel",
             "experienceJob": "Tokopedia",
-            "price": "Rp. 275.000",
+            "price": "275000",
             "kind": "Programing",
             "acces": "3 Bulan"
         },
         {
             "_id": "asd1293uasdads1",
-            "imageUrl": "image/img-card1.jpg",
+            "imageUrl": "image/img-about.jpg",
             "type": "Digital Marketing",
             "date": "6/9/2021",
             "title": "Marketing in Digital",
@@ -41,7 +41,7 @@
             "imageMentor": "image/mentor.jpg",
             "nameMentor": "Marsyanda Rahmawati",
             "experienceJob": "Traveloka",
-            "price": "Rp. 230.000",
+            "price": "230000",
             "kind": "Marketing",
             "acces": "2 Bulan"
         }

@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react';
+import React, { useState } from 'react';
 import {useNavigate} from "react-router-dom";
 import logo from "./../../asset/image/logo.svg";
 import loginPage from "../../asset/image/login.jpg";
@@ -69,7 +69,6 @@ function Login () {
                     </div>
 
                     < ButtonLogin data={handleSendData} />
-                    <button className='py-3 px-4 bg-blue-one text-white' onClick={handleSendData}>send cokkk</button>
 
                 </div>
             </div>

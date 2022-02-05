@@ -1,5 +1,4 @@
 import React from 'react';
-import {useNavigate} from "react-router-dom";
 import logo from "../../asset/image/logo.svg";
 import icon_footer1 from "../../asset/image/icon_footer1.svg";
 import icon_footer2 from "../../asset/image/icon_footer2.svg";
@@ -7,19 +6,12 @@ import icon_footer3 from "../../asset/image/icon_footer3.svg";
 
 
 function Footer() {
-    const navigate = useNavigate();
-
-    const toHome = () => {
-        navigate('/')
-    }
-
   return (
         <div className="bg-blue-one">
             <div className="flex flex-col md:flex-row py-10 w-4/5 mx-auto justify-between">
               <div className="md:w-1/4 flex md:block py-5 md:py-0">
                     <img className='w-16 h-16 py-1' src={logo} alt="logo" />
                     <p className='text-sm text-white mx-3 md:mx-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quia qui quasi animi tenetur ea eligendi!</p>
-                    <button className='p-2 bg-white text-blue-one' onClick={toHome}>cokkkk nang home</button>
               </div>
 
               <div className="flex md:w-1/2 justify-center md:py-5 py-16">

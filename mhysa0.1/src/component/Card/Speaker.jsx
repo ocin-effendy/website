@@ -1,9 +1,17 @@
 import React from 'react';
+import { useDispatch } from 'react-redux';
 import IconSkills from '../IconSkills';
 
-function Speaker({data}) {
+function Speaker({data, email}) {
+    const dispatch = useDispatch();
+    const goPayment = (id) => {
+        if (email !== '') console.log("bisa masuk " + id);
+        else dispatch({type: "ACTIVE", value: "active"});
+    }
+
   return (
-    <div className="flex my-5 lg:my-10 lg:mx-5  py-2 md:py-8 text-center flex-col w-24 sm:w-32 md:w-60 lg:w-80 border border-yellowOne overflow-hidden rounded-xl md:rounded-2xl shadow-sm cursor-pointer font-Lato transition-all duration-300 hover:-translate-y-1">
+    <div className="flex my-5 lg:my-10 lg:mx-5  py-2 md:py-8 text-center flex-col w-24 sm:w-32 md:w-60 lg:w-80 border border-yellowOne overflow-hidden rounded-xl md:rounded-2xl shadow-sm cursor-pointer font-Lato"
+        onClick={() => goPayment(data._id)}>
         <div className="w-fit mx-auto">
             <img className='object-contain rounded-full w-11 h-11 md:w-32 md:h-32 ' src={data.imageUrl} alt="speaker" />
         </div>
@@ -18,7 +26,7 @@ function Speaker({data}) {
             {
                 data.iconSkills.map((e, i) => {
                     return (
-                        < IconSkills e={e} i={i} key={`icon-${i}`}/>
+                        < IconSkills e={e} i={i} key={`icon-${i}`} />
                     )
                 })
             }

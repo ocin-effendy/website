@@ -3,6 +3,9 @@ import Layout from "../../component/Layout";
 import MhysaSpeakerContent from "../../part/MhysaSpeakerContent";
 import dataAllCard from "../../JSON/allCard.json";
 
+import { connect } from "react-redux";
+import Modal from "../../component/Modal";
+
 class MhysaSpeakers extends Component {
   pathname = window.location.pathname;
   state = {
@@ -26,10 +29,16 @@ componentDidMount() {
     const lastNumber = Math.ceil(countData / 9);
     return (
       <Layout address={this.pathname} data={this.state}>
-        < MhysaSpeakerContent data={dataAllCard} lastNumber={lastNumber} />
+        < Modal status={this.props.modal} address={this.pathname} />
+        < MhysaSpeakerContent data={dataAllCard} lastNumber={lastNumber} email={this.state.email} />
       </Layout>
     );
   }
 }
 
-export default MhysaSpeakers;
+const stateRedux = (state) => ({
+  modal: state.statusModal
+});
+
+
+export default connect(stateRedux, null)(MhysaSpeakers);

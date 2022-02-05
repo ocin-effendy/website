@@ -32,7 +32,7 @@ class Home extends Component {
                 <Hero/>
                 <Patners />
                 <PopularClass data={dataCard} email={this.state.email} />
-                <OurSpeakers data={dataCard}  />
+                <OurSpeakers data={dataCard} email={this.state.email} />
                 <Testimoni data={dataCard.testimoni} />
                 <Impress />
             </Layout>
