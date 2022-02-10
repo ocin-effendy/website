@@ -42,10 +42,12 @@
             "nameMentor": "Marsyanda Rahmawati",
             "experienceJob": "Traveloka",
             "price": "230000",
-            "kind": "Marketing"
+            "kind": "Marketing",
+            "acces": "1 Bulan"
+
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "asd1293uasdads2",
             "imageUrl": "image/img-card1.jpg",
             "type": "Programing",
             "date": "6/9/2021",
@@ -56,10 +58,11 @@
             "nameMentor": "Rana Mishel",
             "experienceJob": "Tokopedia",
             "price": "275000",
-            "kind": "Programing"
+            "kind": "Programing",
+            "acces": "2 Bulan"
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "asd1293uasdads3",
             "imageUrl": "image/img-about.jpg",
             "type": "Digital Marketing",
             "date": "6/9/2021",
@@ -70,10 +73,11 @@
             "nameMentor": "Marsyanda Rahmawati",
             "experienceJob": "Traveloka",
             "price": "230000",
-            "kind": "Marketing"
+            "kind": "Marketing",
+            "acces": "1 Bulan"
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "asd1293uasdads4",
             "imageUrl": "image/img-card1.jpg",
             "type": "Programing",
             "date": "6/9/2021",
@@ -84,10 +88,11 @@
             "nameMentor": "Rana Mishel",
             "experienceJob": "Tokopedia",
             "price": "275000",
-            "kind": "Programing"
+            "kind": "Programing",
+            "acces": "2 Bulan"
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "asd1293uasdads5",
             "imageUrl": "image/img-card1.jpg",
             "type": "Programing",
             "date": "6/9/2021",
@@ -98,10 +103,11 @@
             "nameMentor": "Rana Mishel",
             "experienceJob": "Tokopedia",
             "price": "275000",
-            "kind": "Programing"
+            "kind": "Programing",
+            "acces": "2 Bulan"
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "asd1293uasdads6",
             "imageUrl": "image/img-ex.jpg",
             "type": "UI / UX Design",
             "date": "6/9/2021",
@@ -112,10 +118,11 @@
             "nameMentor": "Michel Jhones",
             "experienceJob": "Gojek, Dana",
             "price": "180000",
-            "kind": "Design"
+            "kind": "Design",
+            "acces": "1 Bulan"
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "asd1293uasdads7",
             "imageUrl": "image/img-ex.jpg",
             "type": "UI / UX Design",
             "date": "6/9/2021",
@@ -126,10 +133,12 @@
             "nameMentor": "Michel Jhones",
             "experienceJob": "Gojek, Dana",
             "price": "180000",
-            "kind": "Design"
+            "kind": "Design",
+            "acces": "1 Bulan"
+
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "asd1293uasdads8",
             "imageUrl": "image/img-ex.jpg",
             "type": "UI / UX Design",
             "date": "6/9/2021",
@@ -140,10 +149,12 @@
             "nameMentor": "Michel Jhones",
             "experienceJob": "Gojek, Dana",
             "price": "180000",
-            "kind": "Design"
+            "kind": "Design",
+            "acces": "1 Bulan"
+
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "asd1293uasdads9",
             "imageUrl": "image/img-ex.jpg",
             "type": "UI / UX Design",
             "date": "6/9/2021",
@@ -154,10 +165,12 @@
             "nameMentor": "Michel Jhones",
             "experienceJob": "Gojek, Dana",
             "price": "180000",
-            "kind": "Design"
+            "kind": "Design",
+            "acces": "1 Bulan"
+
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "asd1293uasdads10",
             "imageUrl": "image/img-ex.jpg",
             "type": "UI / UX Design",
             "date": "6/9/2021",
@@ -168,10 +181,12 @@
             "nameMentor": "Michel Jhones",
             "experienceJob": "Gojek, Dana",
             "price": "180000",
-            "kind": "Design"
+            "kind": "Design",
+            "acces": "1 Bulan"
+
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "asd1293uasdads11",
             "imageUrl": "image/img-ex.jpg",
             "type": "UI / UX Design",
             "date": "6/9/2021",
@@ -182,10 +197,12 @@
             "nameMentor": "Michel Jhones",
             "experienceJob": "Gojek, Dana",
             "price": "180000",
-            "kind": "Design"
+            "kind": "Design",
+            "acces": "1 Bulan"
+
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "asd1293uasdads12",
             "imageUrl": "image/img-ex.jpg",
             "type": "UI / UX Design",
             "date": "6/9/2021",
@@ -196,10 +213,12 @@
             "nameMentor": "Michel Jhones",
             "experienceJob": "Gojek, Dana",
             "price": "180000",
-            "kind": "Design"
+            "kind": "Design",
+            "acces": "1 Bulan"
+
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "asd1293uasdads13",
             "imageUrl": "image/img-ex.jpg",
             "type": "UI / UX Design",
             "date": "6/9/2021",
@@ -210,10 +229,12 @@
             "nameMentor": "Michel Jhones",
             "experienceJob": "Gojek, Dana",
             "price": "180000",
-            "kind": "Design"
+            "kind": "Design",
+            "acces": "1 Bulan"
+
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "asd1293uasdads14",
             "imageUrl": "image/img-ex.jpg",
             "type": "UI / UX Design",
             "date": "6/9/2021",
@@ -224,10 +245,12 @@
             "nameMentor": "Michel Jhones",
             "experienceJob": "Gojek, Dana",
             "price": "180000",
-            "kind": "Design"
+            "kind": "Design",
+            "acces": "1 Bulan"
+
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "asd1293uasdads15",
             "imageUrl": "image/img-ex.jpg",
             "type": "UI / UX Design",
             "date": "6/9/2021",
@@ -238,10 +261,12 @@
             "nameMentor": "Michel Jhones",
             "experienceJob": "Gojek, Dana",
             "price": "180000",
-            "kind": "Design"
+            "kind": "Design",
+            "acces": "1 Bulan"
+
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "asd1293uasdads16",
             "imageUrl": "image/img-ex.jpg",
             "type": "UI / UX Design",
             "date": "6/9/2021",
@@ -252,10 +277,12 @@
             "nameMentor": "Michel Jhones",
             "experienceJob": "Gojek, Dana",
             "price": "180000",
-            "kind": "Design"
+            "kind": "Design",
+            "acces": "1 Bulan"
+
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "asd1293uasdads17",
             "imageUrl": "image/img-card1.jpg",
             "type": "Programing",
             "date": "6/9/2021",
@@ -266,10 +293,11 @@
             "nameMentor": "Rana Mishel",
             "experienceJob": "Tokopedia",
             "price": "275000",
-            "kind": "Programing"
+            "kind": "Programing",
+            "acces": "2 Bulan"
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "asd1293uasdads18",
             "imageUrl": "image/img-card1.jpg",
             "type": "Programing",
             "date": "6/9/2021",
@@ -280,10 +308,11 @@
             "nameMentor": "Rana Mishel",
             "experienceJob": "Tokopedia",
             "price": "275000",
-            "kind": "Programing"
+            "kind": "Programing",
+            "acces": "2 Bulan"
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "asd1293uasdads19",
             "imageUrl": "image/img-card1.jpg",
             "type": "Programing",
             "date": "6/9/2021",
@@ -294,10 +323,11 @@
             "nameMentor": "Rana Mishel",
             "experienceJob": "Tokopedia",
             "price": "275000",
-            "kind": "Programing"
+            "kind": "Programing",
+            "acces": "2 Bulan"
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "asd1293uasdads20",
             "imageUrl": "image/img-card1.jpg",
             "type": "Programing",
             "date": "6/9/2021",
@@ -308,10 +338,11 @@
             "nameMentor": "Rana Mishel",
             "experienceJob": "Tokopedia",
             "price": "275000",
-            "kind": "Programing"
+            "kind": "Programing",
+            "acces": "2 Bulan"
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "asd1293uasdads21",
             "imageUrl": "image/img-card1.jpg",
             "type": "Programing",
             "date": "6/9/2021",
@@ -322,10 +353,11 @@
             "nameMentor": "Rana Mishel",
             "experienceJob": "Tokopedia",
             "price": "275000",
-            "kind": "Programing"
+            "kind": "Programing",
+            "acces": "2 Bulan"
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "asd1293uasdads22",
             "imageUrl": "image/img-card1.jpg",
             "type": "Programing",
             "date": "6/9/2021",
@@ -336,10 +368,11 @@
             "nameMentor": "Rana Mishel",
             "experienceJob": "Tokopedia",
             "price": "275000",
-            "kind": "Programing"
+            "kind": "Programing",
+            "acces": "2 Bulan"
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "asd1293uasdads23",
             "imageUrl": "image/img-card1.jpg",
             "type": "Programing",
             "date": "6/9/2021",
@@ -350,10 +383,11 @@
             "nameMentor": "Rana Mishel",
             "experienceJob": "Tokopedia",
             "price": "275000",
-            "kind": "Programing"
+            "kind": "Programing",
+            "acces": "2 Bulan"
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "asd1293uasdads24",
             "imageUrl": "image/img-card1.jpg",
             "type": "Programing",
             "date": "6/9/2021",
@@ -364,10 +398,11 @@
             "nameMentor": "Rana Mishel",
             "experienceJob": "Tokopedia",
             "price": "275000",
-            "kind": "Programing"
+            "kind": "Programing",
+            "acces": "2 Bulan"
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "asd1293uasdads25",
             "imageUrl": "image/img-card1.jpg",
             "type": "Programing",
             "date": "6/9/2021",
@@ -378,10 +413,11 @@
             "nameMentor": "Rana Mishel",
             "experienceJob": "Tokopedia",
             "price": "275000",
-            "kind": "Programing"
+            "kind": "Programing",
+            "acces": "2 Bulan"
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "asd1293uasdads26",
             "imageUrl": "image/img-card1.jpg",
             "type": "Programing",
             "date": "6/9/2021",
@@ -392,10 +428,11 @@
             "nameMentor": "Rana Mishel",
             "experienceJob": "Tokopedia",
             "price": "275000",
-            "kind": "Programing"
+            "kind": "Programing",
+            "acces": "2 Bulan"
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "asd1293uasdads27",
             "imageUrl": "image/img-about.jpg",
             "type": "Digital Marketing",
             "date": "6/9/2021",
@@ -406,10 +443,11 @@
             "nameMentor": "Marsyanda Rahmawati",
             "experienceJob": "Traveloka",
             "price": "230000",
-            "kind": "Marketing"
+            "kind": "Marketing",
+            "acces": "1 Bulan"
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "asd1293uasdads28",
             "imageUrl": "image/img-about.jpg",
             "type": "Digital Marketing",
             "date": "6/9/2021",
@@ -420,10 +458,11 @@
             "nameMentor": "Marsyanda Rahmawati",
             "experienceJob": "Traveloka",
             "price": "230000",
-            "kind": "Marketing"
+            "kind": "Marketing",
+            "acces": "1 Bulan"
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "asd1293uasdads29",
             "imageUrl": "image/img-about.jpg",
             "type": "Digital Marketing",
             "date": "6/9/2021",
@@ -434,10 +473,11 @@
             "nameMentor": "Marsyanda Rahmawati",
             "experienceJob": "Traveloka",
             "price": "230000",
-            "kind": "Marketing"
+            "kind": "Marketing",
+            "acces": "1 Bulan"
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "asd1293uasdads30",
             "imageUrl": "image/img-about.jpg",
             "type": "Digital Marketing",
             "date": "6/9/2021",
@@ -448,10 +488,11 @@
             "nameMentor": "Marsyanda Rahmawati",
             "experienceJob": "Traveloka",
             "price": "230000",
-            "kind": "Marketing"
+            "kind": "Marketing",
+            "acces": "1 Bulan"
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "asd1293uasdads31",
             "imageUrl": "image/img-about.jpg",
             "type": "Digital Marketing",
             "date": "6/9/2021",
@@ -462,10 +503,11 @@
             "nameMentor": "Marsyanda Rahmawati",
             "experienceJob": "Traveloka",
             "price": "230000",
-            "kind": "Marketing"
+            "kind": "Marketing",
+            "acces": "1 Bulan"
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "asd1293uasdads32",
             "imageUrl": "image/img-card1.jpg",
             "type": "Programing",
             "date": "6/9/2021",
@@ -476,7 +518,8 @@
             "nameMentor": "Rana Mishel",
             "experienceJob": "Tokopedia",
             "price": "275000",
-            "kind": "Programing"
+            "kind": "Programing",
+            "acces": "2 Bulan"
         }
     ],
     "allSpeaker": [
@@ -496,7 +539,7 @@
             "iconSkills": [
                 {
                     "icon": "image/icon_speaker.jpg",
-                    "descIcon": "Spekaker"
+                    "descIcon": "Speaker"
                 },
                 {
                     "icon": "image/icon_design.jpg",
@@ -789,15 +832,22 @@
             ]
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "dikairiawan1",
             "imageUrl": "image/mentor.jpg",
             "name": "Dika Iriawan",
             "position": "CEO DikaLearn",
-            "job": "Product Manager",
+            "job": "Product Management",
+            "instagram": "@dikaIriawan",
+            "linked": "Dikairiawan",
+            "email": "dikaIriawan@gmail.com",
+            "price": 250000,
+            "languages": "Eng/Bahasa",
+            "bio": "Saya lulusan Universitas Teknologi Bandung jurusan teknik informatika. Tahun 2011 saya bekerja di gojek sebagai product managemen. 3 tahun setelahnya saya resign dan bekerja di dunia start up untuk mengasah skill saya agar lebih baik kedepannya. Saya mengisi waktu luang untuk sebagai speaker di acara-acara untuk memotivasi dan semangat bagi orang lain",
+            "star": 4,
             "iconSkills": [
                 {
                     "icon": "image/icon_speaker.jpg",
-                    "descIcon": "Spekaker"
+                    "descIcon": "Speaker"
                 },
                 {
                     "icon": "image/icon_design.jpg",
@@ -812,14 +862,48 @@
                     "descIcon": "Meet"
                 }
             ],
-            "skills": "Design Thinking, Problem Solving, Empathy, User Persona"
+            "skills": "Design Thinking, Problem Solving, Empathy, User Persona",
+            "strongPoint": "Berpengalaman lebih 2 tahun sebagai speaker di acara-acara besar dan memiliki komunitas atau organisasi yang bergerak di bidang pembicara. Berkarakter dan dapat mengifluence audience secara baik.",
+            "allPhoto": [
+                {
+                    "imageUrl": "image/img-speaker-skill1.jpg",
+                    "type": "image"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill1.jpg",
+                    "type": "image"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                }
+            ]
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "nicoardiaeffendy1",
             "imageUrl": "image/mentor.jpg",
-            "name": "Dika Iriawan",
-            "position": "CEO DikaLearn",
-            "job": "Product Manager",
+            "name": "Nico Effendy",
+            "position": "CEO NC Corp",
+            "job": "Social Branding",
+            "instagram": "@niikoee",
+            "linked": "NicoEffendy",
+            "email": "nikoardia134@gmail.com",
+            "price": 10000000,
+            "languages": "Eng/Bahasa",
+            "bio": "Saya lulusan Universitas Muhammadyah Malang jurusan teknik informatika. Tahun 2023 berhasil menajalankan perusahaan bernilai 10 juta dolar dan mempunyai relasi lebih dari 1juta orang. Mendapatkan reward dari presiden sebagai CEO termuda yang memberi dampak ekonomi negeri.",
+            "star": 5,
             "iconSkills": [
                 {
                     "icon": "image/icon_speaker.jpg",
@@ -838,14 +922,52 @@
                     "descIcon": "Meet"
                 }
             ],
-            "skills": "Design Thinking, Problem Solving, Empathy, User Persona"
+            "skills": "Design Thinking, Problem Solving, Empathy, User Persona",
+            "strongPoint": "Dapat mempengaruhi banyak orang untuk mengubah untuk lebih baik lagi.",
+            "allPhoto": [
+                {
+                    "imageUrl": "image/img-speaker-skill1.jpg",
+                    "type": "image"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill1.jpg",
+                    "type": "image"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill1.jpg",
+                    "type": "image"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                }
+            ]
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "ranamarsyanda1",
             "imageUrl": "image/mentor.jpg",
-            "name": "Dika Iriawan",
-            "position": "CEO DikaLearn",
-            "job": "Product Manager",
+            "name": "Rana Marsyanda",
+            "position": "CEO Myskincare",
+            "job": "Product Management",
+            "instagram": "@ranama",
+            "linked": "Ranamarsya",
+            "email": "ranama23@gmail.com",
+            "price": 550000,
+            "languages": "Eng/Bahasa",
+            "bio": "Saya lulusan Universitas Muhammadyah Malang jurusan teknik informatika. Tahun 2023 berhasil menajalankan perusahaan bernilai 10 juta dolar dan mempunyai relasi lebih dari 1juta orang. Mendapatkan reward dari presiden sebagai CEO termuda yang memberi dampak ekonomi negeri.",
+            "star": 5,
             "iconSkills": [
                 {
                     "icon": "image/icon_speaker.jpg",
@@ -864,14 +986,40 @@
                     "descIcon": "Meet"
                 }
             ],
-            "skills": "Design Thinking, Problem Solving, Empathy, User Persona"
+            "skills": "Design Thinking, Problem Solving, Empathy, User Persona",
+            "strongPoint": "Dapat mempengaruhi banyak orang untuk mengubah untuk lebih baik lagi.",
+            "allPhoto": [
+                {
+                    "imageUrl": "image/img-speaker-skill1.jpg",
+                    "type": "image"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill1.jpg",
+                    "type": "image"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                }
+            ]
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "sultansyah1",
             "imageUrl": "image/mentor.jpg",
-            "name": "Dika Iriawan",
-            "position": "CEO DikaLearn",
-            "job": "Product Manager",
+            "name": "Sultansyah",
+            "position": "CEO Media Stn",
+            "job": "Design Website",
+            "instagram": "@sultans",
+            "linked": "Sultansyah",
+            "email": "sultan123@gmail.com",
+            "price": 700000,
+            "languages": "Eng/Bahasa",
+            "bio": "Saya lulusan Universitas Muhammadyah Malang jurusan teknik informatika. Tahun 2023 berhasil menajalankan perusahaan bernilai 10 juta dolar dan mempunyai relasi lebih dari 1juta orang. Mendapatkan reward dari presiden sebagai CEO termuda yang memberi dampak ekonomi negeri.",
+            "star": 5,
             "iconSkills": [
                 {
                     "icon": "image/icon_speaker.jpg",
@@ -890,14 +1038,60 @@
                     "descIcon": "Meet"
                 }
             ],
-            "skills": "Design Thinking, Problem Solving, Empathy, User Persona"
+            "skills": "Design Thinking, Problem Solving, Empathy, User Persona",
+            "strongPoint": "Dapat mempengaruhi banyak orang untuk mengubah untuk lebih baik lagi.",
+            "allPhoto": [
+                {
+                    "imageUrl": "image/img-speaker-skill1.jpg",
+                    "type": "image"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill1.jpg",
+                    "type": "image"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill1.jpg",
+                    "type": "image"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill1.jpg",
+                    "type": "image"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                }
+            ]
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "marcelwidiyanto1",
             "imageUrl": "image/mentor.jpg",
-            "name": "Dika Iriawan",
-            "position": "CEO DikaLearn",
-            "job": "Product Manager",
+            "name": "Marcel Widianto",
+            "position": "CEO Butik Indo",
+            "job": "Social Branding",
+            "instagram": "@marcell",
+            "linked": "MarcelWidi",
+            "email": "marcel321@gmail.com",
+            "price": 450000,
+            "languages": "Eng/Bahasa",
+            "bio": "Saya lulusan Universitas Muhammadyah Malang jurusan teknik informatika. Tahun 2023 berhasil menajalankan perusahaan bernilai 10 juta dolar dan mempunyai relasi lebih dari 1juta orang. Mendapatkan reward dari presiden sebagai CEO termuda yang memberi dampak ekonomi negeri.",
+            "star": 5,
             "iconSkills": [
                 {
                     "icon": "image/icon_speaker.jpg",
@@ -916,18 +1110,52 @@
                     "descIcon": "Meet"
                 }
             ],
-            "skills": "Design Thinking, Problem Solving, Empathy, User Persona"
+            "skills": "Design Thinking, Problem Solving, Empathy, User Persona",
+            "strongPoint": "Dapat mempengaruhi banyak orang untuk mengubah untuk lebih baik lagi.",
+            "allPhoto": [
+                {
+                    "imageUrl": "image/img-speaker-skill1.jpg",
+                    "type": "image"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill1.jpg",
+                    "type": "image"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill1.jpg",
+                    "type": "image"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                }
+            ]
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "dikairiawan2",
             "imageUrl": "image/mentor.jpg",
             "name": "Dika Iriawan",
             "position": "CEO DikaLearn",
-            "job": "Product Manager",
+            "job": "Product Management",
+            "instagram": "@dikaIriawan",
+            "linked": "Dikairiawan",
+            "email": "dikaIriawan@gmail.com",
+            "price": 250000,
+            "languages": "Eng/Bahasa",
+            "bio": "Saya lulusan Universitas Teknologi Bandung jurusan teknik informatika. Tahun 2011 saya bekerja di gojek sebagai product managemen. 3 tahun setelahnya saya resign dan bekerja di dunia start up untuk mengasah skill saya agar lebih baik kedepannya. Saya mengisi waktu luang untuk sebagai speaker di acara-acara untuk memotivasi dan semangat bagi orang lain",
+            "star": 4,
             "iconSkills": [
                 {
                     "icon": "image/icon_speaker.jpg",
-                    "descIcon": "Spekaker"
+                    "descIcon": "Speaker"
                 },
                 {
                     "icon": "image/icon_design.jpg",
@@ -942,14 +1170,48 @@
                     "descIcon": "Meet"
                 }
             ],
-            "skills": "Design Thinking, Problem Solving, Empathy, User Persona"
+            "skills": "Design Thinking, Problem Solving, Empathy, User Persona",
+            "strongPoint": "Berpengalaman lebih 2 tahun sebagai speaker di acara-acara besar dan memiliki komunitas atau organisasi yang bergerak di bidang pembicara. Berkarakter dan dapat mengifluence audience secara baik.",
+            "allPhoto": [
+                {
+                    "imageUrl": "image/img-speaker-skill1.jpg",
+                    "type": "image"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill1.jpg",
+                    "type": "image"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                }
+            ]
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "nicoardiaeffendy2",
             "imageUrl": "image/mentor.jpg",
-            "name": "Dika Iriawan",
-            "position": "CEO DikaLearn",
-            "job": "Product Manager",
+            "name": "Nico Effendy",
+            "position": "CEO NC Corp",
+            "job": "Social Branding",
+            "instagram": "@niikoee",
+            "linked": "NicoEffendy",
+            "email": "nikoardia134@gmail.com",
+            "price": 10000000,
+            "languages": "Eng/Bahasa",
+            "bio": "Saya lulusan Universitas Muhammadyah Malang jurusan teknik informatika. Tahun 2023 berhasil menajalankan perusahaan bernilai 10 juta dolar dan mempunyai relasi lebih dari 1juta orang. Mendapatkan reward dari presiden sebagai CEO termuda yang memberi dampak ekonomi negeri.",
+            "star": 5,
             "iconSkills": [
                 {
                     "icon": "image/icon_speaker.jpg",
@@ -968,14 +1230,52 @@
                     "descIcon": "Meet"
                 }
             ],
-            "skills": "Design Thinking, Problem Solving, Empathy, User Persona"
+            "skills": "Design Thinking, Problem Solving, Empathy, User Persona",
+            "strongPoint": "Dapat mempengaruhi banyak orang untuk mengubah untuk lebih baik lagi.",
+            "allPhoto": [
+                {
+                    "imageUrl": "image/img-speaker-skill1.jpg",
+                    "type": "image"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill1.jpg",
+                    "type": "image"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill1.jpg",
+                    "type": "image"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                }
+            ]
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "ranamarsyanda2",
             "imageUrl": "image/mentor.jpg",
-            "name": "Dika Iriawan",
-            "position": "CEO DikaLearn",
-            "job": "Product Manager",
+            "name": "Rana Marsyanda",
+            "position": "CEO Myskincare",
+            "job": "Product Management",
+            "instagram": "@ranama",
+            "linked": "Ranamarsya",
+            "email": "ranama23@gmail.com",
+            "price": 550000,
+            "languages": "Eng/Bahasa",
+            "bio": "Saya lulusan Universitas Muhammadyah Malang jurusan teknik informatika. Tahun 2023 berhasil menajalankan perusahaan bernilai 10 juta dolar dan mempunyai relasi lebih dari 1juta orang. Mendapatkan reward dari presiden sebagai CEO termuda yang memberi dampak ekonomi negeri.",
+            "star": 5,
             "iconSkills": [
                 {
                     "icon": "image/icon_speaker.jpg",
@@ -994,14 +1294,40 @@
                     "descIcon": "Meet"
                 }
             ],
-            "skills": "Design Thinking, Problem Solving, Empathy, User Persona"
+            "skills": "Design Thinking, Problem Solving, Empathy, User Persona",
+            "strongPoint": "Dapat mempengaruhi banyak orang untuk mengubah untuk lebih baik lagi.",
+            "allPhoto": [
+                {
+                    "imageUrl": "image/img-speaker-skill1.jpg",
+                    "type": "image"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill1.jpg",
+                    "type": "image"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                }
+            ]
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "sultansyah2",
             "imageUrl": "image/mentor.jpg",
-            "name": "Dika Iriawan",
-            "position": "CEO DikaLearn",
-            "job": "Product Manager",
+            "name": "Sultansyah",
+            "position": "CEO Media Stn",
+            "job": "Design Website",
+            "instagram": "@sultans",
+            "linked": "Sultansyah",
+            "email": "sultan123@gmail.com",
+            "price": 700000,
+            "languages": "Eng/Bahasa",
+            "bio": "Saya lulusan Universitas Muhammadyah Malang jurusan teknik informatika. Tahun 2023 berhasil menajalankan perusahaan bernilai 10 juta dolar dan mempunyai relasi lebih dari 1juta orang. Mendapatkan reward dari presiden sebagai CEO termuda yang memberi dampak ekonomi negeri.",
+            "star": 5,
             "iconSkills": [
                 {
                     "icon": "image/icon_speaker.jpg",
@@ -1020,14 +1346,60 @@
                     "descIcon": "Meet"
                 }
             ],
-            "skills": "Design Thinking, Problem Solving, Empathy, User Persona"
+            "skills": "Design Thinking, Problem Solving, Empathy, User Persona",
+            "strongPoint": "Dapat mempengaruhi banyak orang untuk mengubah untuk lebih baik lagi.",
+            "allPhoto": [
+                {
+                    "imageUrl": "image/img-speaker-skill1.jpg",
+                    "type": "image"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill1.jpg",
+                    "type": "image"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill1.jpg",
+                    "type": "image"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill1.jpg",
+                    "type": "image"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                }
+            ]
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "marcelwidiyanto2",
             "imageUrl": "image/mentor.jpg",
-            "name": "Dika Iriawan",
-            "position": "CEO DikaLearn",
-            "job": "Product Manager",
+            "name": "Marcel Widianto",
+            "position": "CEO Butik Indo",
+            "job": "Social Branding",
+            "instagram": "@marcell",
+            "linked": "MarcelWidi",
+            "email": "marcel321@gmail.com",
+            "price": 450000,
+            "languages": "Eng/Bahasa",
+            "bio": "Saya lulusan Universitas Muhammadyah Malang jurusan teknik informatika. Tahun 2023 berhasil menajalankan perusahaan bernilai 10 juta dolar dan mempunyai relasi lebih dari 1juta orang. Mendapatkan reward dari presiden sebagai CEO termuda yang memberi dampak ekonomi negeri.",
+            "star": 5,
             "iconSkills": [
                 {
                     "icon": "image/icon_speaker.jpg",
@@ -1046,33 +1418,35 @@
                     "descIcon": "Meet"
                 }
             ],
-            "skills": "Design Thinking, Problem Solving, Empathy, User Persona"
-        },
-        {
-            "_id": "asd1293uasdads1",
-            "imageUrl": "image/mentor.jpg",
-            "name": "Dika Iriawan",
-            "position": "CEO DikaLearn",
-            "job": "Product Manager",
-            "iconSkills": [
+            "skills": "Design Thinking, Problem Solving, Empathy, User Persona",
+            "strongPoint": "Dapat mempengaruhi banyak orang untuk mengubah untuk lebih baik lagi.",
+            "allPhoto": [
                 {
-                    "icon": "image/icon_speaker.jpg",
-                    "descIcon": "Spekaker"
+                    "imageUrl": "image/img-speaker-skill1.jpg",
+                    "type": "image"
                 },
                 {
-                    "icon": "image/icon_design.jpg",
-                    "descIcon": "Design"
+                    "imageUrl": "image/img-speaker-skill1.jpg",
+                    "type": "image"
                 },
                 {
-                    "icon": "image/icon_userPersona.jpg",
-                    "descIcon": "Persona"
+                    "imageUrl": "image/img-speaker-skill1.jpg",
+                    "type": "image"
                 },
                 {
-                    "icon": "image/icon_presentation.jpg",
-                    "descIcon": "Meet"
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
                 }
-            ],
-            "skills": "Design Thinking, Problem Solving, Empathy, User Persona"
+            ]
         }
+        
     ]
 }

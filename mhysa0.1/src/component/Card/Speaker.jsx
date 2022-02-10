@@ -1,11 +1,13 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
 import IconSkills from '../IconSkills';
 
 function Speaker({data, email}) {
     const dispatch = useDispatch();
+    const navigate = useNavigate();
     const goPayment = (id) => {
-        if (email !== '') console.log("bisa masuk " + id);
+        if (email !== '') navigate("/details-speaker" + id);
         else dispatch({type: "ACTIVE", value: "active"});
     }
 

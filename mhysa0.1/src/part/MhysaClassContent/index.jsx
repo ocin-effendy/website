@@ -170,6 +170,7 @@ function MhysaClassContent({ data, lastNumber, email }) {
               return returnCard(e, i);
             }
           }
+          
         })}
       </div>
     </div>

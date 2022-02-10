@@ -12,14 +12,22 @@ function PaymentClassContent({data}) {
     const succesPayment = () => {
         navigate('/');
     }
+    var [price, total, acces] = ['', '',''];
+    dataAllCard.allClass.map(e => {
+        if(e._id === id){
+            [price, total, acces] = [e.price, parseInt(e.price)+125000, e.acces];
+        }
+    });
     const initialState = {
-        priceClass: parseInt(data.price),
-        totalPrice: parseInt(data.price) + 125000,
+        priceClass: price,
+        totalPrice: total,
         kode: '',
         buttonText: 'MASUKKAN',
         discount: '',
         buttonConfirm: ''
     }
+    
+
     const [state, setstate] = useState(initialState);
 
     const fileChange = (file) => {
@@ -59,8 +67,8 @@ function PaymentClassContent({data}) {
         }
         if (state.buttonText === "HAPUS") {
             setstate({
-                priceClass: parseInt(data.price),
-                totalPrice: parseInt(data.price) + 125000,
+                priceClass: price,
+                totalPrice: total,
                 kode: '',
                 buttonText: 'MASUKKAN',
                 discount: '',
@@ -79,7 +87,15 @@ function PaymentClassContent({data}) {
             <div className="flex flex-col medium:flex-row medium:w-4/5 mx-auto ">
 
                 <div className="my-5 medium:-mt-5 w-fit mx-auto">
-                    < Class data={data} />
+
+                    {
+                        dataAllCard.allClass.map(e => {
+                            if(e._id == id){
+                                return < Class data={e} />
+                            }
+                        })
+                    }
+                    {/* < Class data={data} /> */}
                 </div>
 
                 <div className="px-3 py-2 exsmall:w-4/5 exsmall:mx-auto small:w-2/3 medium:w-96 large:w-128  ">
@@ -87,7 +103,7 @@ function PaymentClassContent({data}) {
                         <h1 className='font-semibold'>Yang Kamu Dapatkan!</h1>
                         <div className="flex justify-between items-center text-sm large:text-base">
                             <h1>Waktu Akses</h1>
-                            <h1>{data.acces}</h1>
+                            <h1>{acces}</h1>
                         </div>
                         <div className="flex justify-between items-center text-sm large:text-base">
                             <h1>Mentoring & Aset</h1>
@@ -103,7 +119,7 @@ function PaymentClassContent({data}) {
                         <h1 className='font-semibold'>Detail Pembayaran</h1>
                         <div className="flex justify-between items-center text-sm large:text-base">
                             <h1>Harga Awal</h1>
-                            <h1>Rp.{data.price}</h1>
+                            <h1>Rp.{price}</h1>
                         </div>
                         <div className="flex justify-between items-center">
                             {/* <input className='bg-gray-300 w-1/2 text-xs p-1 outline-none' type="text" placeholder='Kode Refferal' /> */}
@@ -146,7 +162,6 @@ function PaymentClassContent({data}) {
                         <form action="">
                             <input type="file" name="proofPayment" onChange={fileChange} />
                             <div className="w-fit mx-auto mt-5">
-                                {/* <button className="bg-blue-one text-white font-semibold px-4 py-1 text-sm rounded-lg large:px-5 large:py-2">Konfirmasi Pembayaran</button> */}
                                 {
                                     state.buttonConfirm === "active" ? (
                                         <button

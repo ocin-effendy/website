@@ -9,6 +9,8 @@ import Blog from './pages/Blog';
 import Login from './pages/Login';
 import SignUp from './pages/SignUp';
 import PaymentClass from './pages/PaymentClass.';
+import DetailSpeaker from './pages/DetailSpeaker';
+import PaymentSpeaker from './pages/PaymentSpeaker';
 
 function App() {
   return (
@@ -22,7 +24,9 @@ function App() {
           <Route path="/blog" element={<Blog/>} />
           <Route path="/sign-in" element={<Login/>} />
           <Route path="/sign-up" element={<SignUp/>} />
-          <Route path="/payment-class:id" element={< PaymentClass/>} />
+          <Route path="/payment-class:id" element={<PaymentClass/>} />
+          <Route path="/details-speaker:id" element={<DetailSpeaker/>} />
+          <Route path="/payment-speaker:id" element={<PaymentSpeaker />} />
         </Routes>
       </BrowserRouter>
     

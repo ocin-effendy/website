@@ -15,7 +15,7 @@ function Class({data, email}) {
     }
 
   return (
-      <div className="flex my-5 lg:mx-5 lg:my-10 flex-col justify-between w-24 sm:w-32 md:w-60 lg:w-80 border border-indigo-900 overflow-hidden rounded-xl md:rounded-2xl shadow-sm cursor-pointer font-Lato transition-all duration-300" 
+      <div className="flex my-5 lg:mx-5 lg:my-10 flex-col justify-between w-24 sm:w-32 md:w-60 lg:w-80 border border-indigo-900 overflow-hidden rounded-xl md:rounded-2xl shadow-sm cursor-pointer font-Lato " 
       onClick={() => goPayment(data._id)}>
           <div className="w-full h-16 sm:h-20 md:h-40 lg:h-56 overflow-hidden">
               <img className='object-cover h-full w-full' src={data.imageUrl} alt="card" />
