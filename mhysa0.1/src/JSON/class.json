@@ -1,0 +1,55 @@
+{
+    "Class":[
+        {
+            "_id": "nikoardiaeffendy",
+            "imageUrl": "image/img-card1.jpg",
+            "type": "Programing",
+            "date": "6/9/2021",
+            "title": "Introduction Basic Program",
+            "time": "15.00-17.00",
+            "members": 17,
+            "imageMentor": "image/mentor.jpg",
+            "nameMentor": "Rana Mishel",
+            "experienceJob": "Tokopedia",
+            "price": "275000",
+            "kind": "Programing",
+            "acces": "2 Bulan",
+            "desc": "pemrograman atau programming adalah proses menulis, menguji dan memperbaiki (debug), dan memelihara kode yang membangun suatu program komputer. Kode ini ditulis dalam berbagai bahasa pemrograman atau sering disebut juga bahasa komputer. Pengertian Bahasa PemrogramanBahasa pemrograman (bahasa pemrograman) adalah instruksi standar untuk memerintah komputer yang memiliki fungsi tertentu. ... contohnya: BASIC, C, C++, COBOL, FORTRAN, ada, Pascal, Java ",
+            "materi": "1. Pemograman dasar\n2. Pemograman OOP\n3. Pemroraman Lanjutan\n4. Pemograman Final"
+        },
+        {
+            "_id": "danielwillyaneffendy",
+            "imageUrl": "image/img-about.jpg",
+            "type": "Digital Marketing",
+            "date": "6/9/2021",
+            "title": "Concept Market Digital",
+            "time": "08.00-10.00",
+            "members": 9,
+            "imageMentor": "image/mentor.jpg",
+            "nameMentor": "Marsyanda Rahmawati",
+            "experienceJob": "Traveloka",
+            "price": "230000",
+            "kind": "Marketing",
+            "acces": "1 Bulan",
+            "desc": "marketing adalah strategi bisnis yang mengacu pada kegiatan yang dilakukan perusahaan untuk mempromosikan pembelian atau penjualan produk atau jasa. Marketing adalah mencakup periklanan, penjualan, dan pengiriman produk kepada konsumen atau bisnis lain. Bertugas menjadi orang yang menjualkan produk perusahaan kepada konsumen sehingga perusahaan mendapatkan keuntungan dari setiap produk yang terjual. Bertugas untuk mencari informasi dan menyampaikannya kepada perusahaan mengenai kelebihan dan kekurangan dari sebuah produk yang dijual",
+            "materi": "1. Konsep dasar marketing\n2. Psikologi Marketing\n3. Teknik Closing"
+        },
+        {
+            "_id": "asd1293uasdads7",
+            "imageUrl": "image/img-ex.jpg",
+            "type": "UI / UX Design",
+            "date": "6/9/2021",
+            "title": "Introduction Figma Prototype",
+            "time": "12.00-14.00",
+            "members": 12,
+            "imageMentor": "image/mentor.jpg",
+            "nameMentor": "Michel Jhones",
+            "experienceJob": "Gojek, Dana",
+            "price": "180000",
+            "kind": "Design",
+            "acces": "1 Bulan",
+            "desc": "Arti kata design dalam Kamus Oxford adalah rencana atau gambar yang dibuat untuk memperlihatkan tampilan dan fungsi dari bangunan, pakaian, atau objek lainnya sebelum benar-benar dibuat. Selain itu, Oxford juga memberikan definisi lain untuk desain, yaitu corak dekoratif. Sedangkan Desain program merupakan langkah awal untuk menganalisis situasi, merencanakan strategi dan struktur, serta menghasilkan persiapan rencana kerja yang matang",
+            "materi": "1. Design dasar\n2. Object focus\n3. Coloring"
+        }
+    ]
+}

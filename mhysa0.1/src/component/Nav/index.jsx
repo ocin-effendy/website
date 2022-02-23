@@ -1,25 +1,26 @@
 import React, {useState} from 'react';
+import { useNavigate } from 'react-router-dom';
 import logo from "./../../asset/image/logo.svg";
 import { HiOutlineFolderOpen } from "react-icons/hi";
 import {  BsBoxArrowLeft } from "react-icons/bs";
 
 
 function Nav(props) {
+    const navigate = useNavigate();
     const [isOpen, setIsOpen] = useState(false);
     const [isProgram, setIsProgram] = useState(false);
     const [isEmail, setIsEmail] = useState(false);
     
 
     const deleteLocalStorage = () => {
-        console.log('ini data yg akan dihapus' + props.data.name)
         localStorage.removeItem("userData");
+        navigate('/');
         window.location.reload();
-
     }
-
     
-
-
+    const toMyClass = () => {
+        navigate('/myClass');
+    }
     
     return (
         <div className="w-full font-Lato flex items-center " >
@@ -149,7 +150,7 @@ function Nav(props) {
                                         <div className={`${ isEmail ? "block" : "hidden"} absolute z-20 w-40 py-2 mt-1 overflow-hidden bg-white rounded-md shadow-xl dark:bg-gray-800 px-1`}>
                                             <button
                                             className="flex items-center w-full z-50  py-3 text-sm text-gray-600 capitalize transition-colors duration-200 transform  hover:bg-gray-300 border-indigo-900"
-                                            onClick={deleteLocalStorage}
+                                            onClick={toMyClass}
                                             >
                                                 < HiOutlineFolderOpen className="w-5 h-5 mr-1" />
                                                 My Class

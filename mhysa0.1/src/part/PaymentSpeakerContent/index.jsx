@@ -3,6 +3,9 @@ import {useParams} from 'react-router-dom';
 import halfCircle from '../../asset/image/halfCircle1.svg';
 import star from '../../asset/image/icon_star.svg';
 import dataAllCard from '../../JSON/allCard.json';
+import icon_calender from '../../asset/image/icon_yellowCalender.svg';
+import icon_time from '../../asset/image/icon_yellowTime.svg';
+import icon_arrowLeft from '../../asset/image/arrowLeft.svg'
 
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
@@ -10,6 +13,8 @@ import { data } from 'autoprefixer';
 
 function PaymentSpeakerContent() {
   const {id} = useParams();
+
+  const [clickTime, setClickTime] = useState({one:false, two:false});
   
   const time1 = "09:00-12:00 WIB";
   const time2 = "19:00-22:00 WIB";
@@ -55,18 +60,28 @@ function PaymentSpeakerContent() {
   }
 
   const handleDate = (date) => {
-      handleState('date', date)
+      handleState('date', date);
+      console.log('ini merupakan date : ' + state.date);
+
   }
 
   const handleTime = (e) => {
       if (e.target.id === 'evening') {
-          e.target.previousElementSibling.className = ''
-          e.target.className = 'active';
+          setClickTime({
+            one:false,
+            two:true
+          });
           handleState('time', time2);
+          console.log('apakah 19:00-22:00 WIB benar : ' + time2);
       } else if (e.target.id === 'morning') {
-          e.target.nextElementSibling.className = ''
-          e.target.className = 'active';
+          setClickTime({
+            one:true,
+            two:false
+          });
           handleState('time', time1);
+          console.log('apakah 09:00-12:00 WIB benar : ' + state.time);
+
+
       }
   }
 
@@ -75,7 +90,7 @@ function PaymentSpeakerContent() {
       let child = parent.childNodes;
       const event = e.target.id;
       child.forEach(e => {
-          e.className = '';
+          e.className = 'mt-2 mr-2 px-3 py-1 large:mr-3  medium:px-6 large:px-14 border border-indigo-900 rounded-md hover:cursor-pointer';
       });
       if (event === 'Lain-lain') {
           setstate({
@@ -104,46 +119,46 @@ function PaymentSpeakerContent() {
           })
       }
 
-      e.target.className = 'active';
+      e.target.className = 'mt-2 mr-2 px-3 py-1 large:mr-3  medium:px-6 large:px-14 border border-indigo-900 rounded-md hover:cursor-pointer bg-blue-one text-white';
   }
 
   const handleText = (e) => {
-      if (e.target.id === 'desc') handleState('desc', e.target.value)
-      else if (e.target.id === 'topic') handleState('topic', e.target.value);
+    if (e.target.id === 'desc') handleState('desc', e.target.value)
+    else if (e.target.id === 'topic') handleState('topic', e.target.value);
   }
 
 
   const handleNext = () => {
-      const dateFix = `${state.date.toLocaleString('default', { weekday: 'long' })}, ${state.date.getDate()} 
-      ${state.date.toLocaleString('default', { month: 'long' })} ${state.date.getFullYear()}`
-      if (state.time !== '' && state.event !== '' && state.desc !== '' && state.topic !== '') {
-          if (state.event !== 'Lain-lain') {
-              handleState('result', dateFix, 'result');
-          } else {
-              setstate({
-                  date: state.date,
-                  time: state.time,
-                  event: state.otherEvent,
-                  desc: state.desc,
-                  topic: state.topic,
-                  result: 'result',
-                  scedule: dateFix,
-                  otherEvent: state.otherEvent,
-                  input: state.input,
-              })
-          }
+    const dateFix = `${state.date.toLocaleString('default', { weekday: 'long' })}, ${state.date.getDate()} 
+    ${state.date.toLocaleString('default', { month: 'long' })} ${state.date.getFullYear()}`
+    if (state.time !== '' && state.event !== '' && state.desc !== '' && state.topic !== '') {
+      if (state.event !== 'Lain-lain') {
+        handleState('result', dateFix, 'result');
       } else {
-          alert('Lengkapi Form Terlebih Dahulu!')
-      }
+        setstate({
+          date: state.date,
+          time: state.time,
+          event: state.otherEvent,
+          desc: state.desc,
+          topic: state.topic,
+          result: 'result',
+          scedule: dateFix,
+          otherEvent: state.otherEvent,
+          input: state.input,
+          })
+        }
+    } else {
+      alert('Lengkapi Form Terlebih Dahulu!')
+    }
   }
 
   const handleBack = () => {
-      handleState('result', state.scedule, '')
+    handleState('result', state.scedule, '')
   }
 
   const handleOtherEvent = (e) => {
-      console.log('ini eventchange', e.target.value);
-      handleState('other', e.target.value)
+    console.log('ini eventchange', e.target.value);
+    handleState('other', e.target.value)
   }
   return (
       <div >
@@ -171,66 +186,110 @@ function PaymentSpeakerContent() {
                       </div>
                       </div>
                     </div>
-      
-                    <div className="flex flex-col medium:flex-row items-center justify-between">
-                      <div className="w-full medium:w-1/2 medium:mr-3">
-                        <label className='text-sm small:text-lg large:text-xl' htmlFor="date">Pilih Tanggal</label>
-                        <DatePicker
-                          name="date" id="date"
-                          className="w-full py-2 px-4 text-xs border border-indigo-900 rounded-lg outline-none small:text-sm large:text-base"
-                          selected={state.date}
-                          onChange={(date) => handleDate(date)}
-                          dateFormat="EEEE, dd MMMM yyyy"
-                        />
-                      </div>
-      
-                        <div className="mt-2 w-full medium:w-1/2 large:w-2/5 medium:m-0">
-                          <label className='text-sm small:text-lg large:text-xl' htmlFor="time">Pilih Waktu</label>
-                          <div className="flex justify-evenly medium:justify-start text-xs text-center ">
-                            <span className='border border-indigo-900 py-2 px-4 medium:px-6 rounded-lg small:text-sm medium:mr-5 large:text-base' onClick={handleTime} id="morning">09:00-12:00 WIB</span>
-                            <span className='border border-indigo-900 py-2 px-4 medium:px-6 rounded-lg small:text-sm large:text-base' onClick={handleTime} id="evening">19:00-22:00 WIB</span>
-                          </div>
-                        </div>
-                    </div>
-      
-                    <div className="mt-2 medium:mt-8 large:mt-12">
-                      <label className='text-sm small:text-lg large:text-xl' htmlFor="">Pilih Bentuk Acara</label>
-                      <p className='mt-1 text-exsm small:text-sm large:text-base medium:mt-3'>Butuh pembicara mengisi:</p>
-                      <div className="flex flex-wrap justify-center medium:justify-start text-exsm text-center small:text-sm large:text-lg">
-                        <span onClick={handleEvent} className="mt-2 mr-2 px-3 py-1 large:mr-3 medium:py-2 medium:px-6 large:px-14 border border-indigo-900 rounded-md" id="Webinar">Webinar</span>
-                        <span onClick={handleEvent} className="mt-2 mr-2 px-3 py-1 large:mr-3 medium:py-2 medium:px-6 large:px-14 border border-indigo-900 rounded-md" id="Talkshow" >Talkshow</span>
-                        <span onClick={handleEvent} className="mt-2 mr-2 px-3 py-1 large:mr-3 medium:py-2 medium:px-6 large:px-14 border border-indigo-900 rounded-md" id="Moderator" >Moderator</span>
-                        <span onClick={handleEvent} className="mt-2 mr-2 px-3 py-1 large:mr-3 medium:py-2 medium:px-6 large:px-14 border border-indigo-900 rounded-md" id="Workshops" >Workshops</span>
-                        <span onClick={handleEvent} className="mt-2 mr-2 px-3 py-1 large:mr-3 medium:py-2 medium:px-6 large:px-14 border border-indigo-900 rounded-md" id="Coference" >Coference</span>
-                        <span onClick={handleEvent} className="mt-2 mr-2 px-3 py-1 large:mr-3 medium:py-2 medium:px-6 large:px-14 border border-indigo-900 rounded-md" id="Lain-lain" >Lain-lain</span>
-                      </div>
-                    </div>
-      
-                    <div className="mt-2 medium:mt-8 large:mt-12">
-                      <label className='text-sm small:text-lg large:text-xl' htmlFor="">Deskripsi Acara</label>
-                      <div className="flex flex-col items-center medium:flex-row medium:justify-between">
-                          <div className="flex flex-col my-2 w-full medium:mx-5">
-                            <label className='text-exsm small:text-sm large:text-base' htmlFor="desc">Detail acara yang akan diisi :</label>
-                            <textarea name="desc" id="desc"  rows="8"
-                            className='border border-indigo-900 outline-none p-2 rounded-lg'
-                              placeholder="Isi disini"
-                              onChange={handleText}
-                              value={state.desc} />
-                          </div>
-                          <div className="flex flex-col w-full medium:mx-5">
-                            <label className='text-exsm small:text-sm large:text-base' htmlFor="topic">Topik yang ingin dibahas :</label>
-                            <textarea name="topic" id="topic"  rows="8"
-                            className='border border-indigo-900 outline-none p-2 rounded-lg'
-                              placeholder="Isi disini"
-                              onChange={handleText}
-                              value={state.topic} />
-                          </div>
-                        </div>
-                    </div>
 
-                    <div className="w-fit mx-auto mt-7">
-                      <button className='bg-blue-one text-white py-1 px-5 text-sm rounded-md medium:text-lg medium:px-8'>Lanjutkan</button>
-                    </div>
+                    {
+                      state.result=== '' ? (
+                          <div className="">
+                          <div className="flex flex-col medium:flex-row items-center justify-between">
+                            <div className="w-full medium:w-1/2 medium:mr-3">
+                              <label className='text-sm small:text-lg large:text-xl' htmlFor="date">Pilih Tanggal</label>
+                              <DatePicker
+                                name="date" id="date"
+                                className="w-full py-2 px-4 text-xs border border-indigo-900 rounded-lg outline-none small:text-sm large:text-base"
+                                selected={state.date}
+                                onChange={(date) => handleDate(date)}
+                                dateFormat="EEEE, dd MMMM yyyy"
+                              />
+                            </div>
+            
+                              <div className="mt-2 w-full medium:w-1/2 large:w-2/5 medium:m-0">
+                                <label className='text-sm small:text-lg large:text-xl' htmlFor="time">Pilih Waktu</label>
+                                <div className="flex justify-evenly medium:justify-start text-xs text-center ">
+                                  <span className={`${clickTime.one ? 'bg-blue-one text-white' : ''} hover:cursor-pointer border border-indigo-900 py-2 px-4 medium:px-6 rounded-lg small:text-sm medium:mr-5 large:text-base`} onClick={handleTime} id="morning">09:00-12:00 WIB</span>
+                                  <span className={`${clickTime.two ? 'bg-blue-one text-white' : ''} hover:cursor-pointer border border-indigo-900 py-2 px-4 medium:px-6 rounded-lg small:text-sm medium:mr-5 large:text-base`} onClick={handleTime} id="evening">19:00-22:00 WIB</span>
+                                </div>
+                              </div>
+                          </div>
+            
+                          <div className="mt-2 medium:mt-8 large:mt-12">
+                            <label className='text-sm small:text-lg large:text-xl' htmlFor="">Pilih Bentuk Acara</label>
+                            <p className='mt-1 text-exsm small:text-sm large:text-base medium:mt-3'>Butuh pembicara mengisi:</p>
+                            <div className="flex flex-wrap justify-center medium:justify-start text-exsm text-center small:text-sm large:text-lg">
+                              <span onClick={handleEvent} className="mt-2 mr-2 px-3 py-1 large:mr-3  medium:px-6 large:px-14 border border-indigo-900 rounded-md hover:cursor-pointer" id="Webinar">Webinar</span>
+                              <span onClick={handleEvent} className="mt-2 mr-2 px-3 py-1 large:mr-3  medium:px-6 large:px-14 border border-indigo-900 rounded-md hover:cursor-pointer" id="Talkshow" >Talkshow</span>
+                              <span onClick={handleEvent} className="mt-2 mr-2 px-3 py-1 large:mr-3  medium:px-6 large:px-14 border border-indigo-900 rounded-md hover:cursor-pointer" id="Moderator" >Moderator</span>
+                              <span onClick={handleEvent} className="mt-2 mr-2 px-3 py-1 large:mr-3  medium:px-6 large:px-14 border border-indigo-900 rounded-md hover:cursor-pointer" id="Workshops" >Workshops</span>
+                              <span onClick={handleEvent} className="mt-2 mr-2 px-3 py-1 large:mr-3  medium:px-6 large:px-14 border border-indigo-900 rounded-md hover:cursor-pointer" id="Coference" >Coference</span>
+                              <span onClick={handleEvent} className="mt-2 mr-2 px-3 py-1 large:mr-3  medium:px-6 large:px-14 border border-indigo-900 rounded-md hover:cursor-pointer" id="Lain-lain" >Lain-lain</span>
+                              {
+                                state.input === '' ?
+                                  (
+                                    <input className='mt-2 mr-2 px-3 py-1 border border-indigo-900 rounded-md hover:cursor-pointer' placeholder="Click Lain-lain" disabled />
+                                  ) : (
+                                     <input className='mt-2 mr-2 px-3 py-1 large:mr-3  border border-indigo-900 rounded-md hover:cursor-pointer' type="text" placeholder="Isi disini" onChange={handleOtherEvent} />
+                                  )
+                              }
+                            </div>
+                          </div>
+            
+                          <div className="mt-2 medium:mt-8 large:mt-12">
+                            <label className='text-sm small:text-lg large:text-xl' htmlFor="">Deskripsi Acara</label>
+                            <div className="flex flex-col items-center medium:flex-row medium:justify-between">
+                                <div className="flex flex-col my-2 w-full medium:mx-5">
+                                  <label className='text-exsm small:text-sm large:text-base' htmlFor="desc">Detail acara yang akan diisi :</label>
+                                  <textarea name="desc" id="desc"  rows="8"
+                                  className='border border-indigo-900 outline-none p-2 rounded-lg'
+                                    placeholder="Isi disini"
+                                    onChange={handleText}
+                                    value={state.desc} />
+                                </div>
+                                <div className="flex flex-col w-full medium:mx-5">
+                                  <label className='text-exsm small:text-sm large:text-base' htmlFor="topic">Topik yang ingin dibahas :</label>
+                                  <textarea name="topic" id="topic"  rows="8"
+                                  className='border border-indigo-900 outline-none p-2 rounded-lg'
+                                    placeholder="Isi disini"
+                                    onChange={handleText}
+                                    value={state.topic} />
+                                </div>
+                              </div>
+                          </div>
+
+                          <div className="w-fit mx-auto mt-7">
+                            <button className='bg-blue-one text-white py-1 px-5 text-sm rounded-md medium:text-lg medium:px-8' onClick={handleNext}>Lanjutkan</button>
+                          </div>
+                      </div>
+                      ) :(
+                        <div className="m-4/5 mx-auto my-28 rounded-md shadow-xl py-3 px-3 text-blue-one medium:w-1/2 medium:rounded-xl medium:py-5 medium:px-8 large:px-20">
+                          <h1 className='font-semibold'>Konfirmasi Bookingan Kamu</h1>
+                          <h1 className='mt-2 medium:mt-5'>Sesi <b>{state.event}</b> dengan <b>{e.name}</b> </h1>
+                          <p className='text-xs'>Fee Pembicara <b>Rp.{e.price}</b></p>
+                          <div className="border-b border-indigo-900 py-3 medium:flex medium:justify-evenly">
+                            <span className='flex items-center medium:text-xs large:text-sm '><img src={icon_calender} alt="icon" />{state.scedule}</span>
+                            <span className='flex items-center medium:text-xs large:text-sm '><img src={icon_time} alt="icon" />{state.time}</span>
+                          </div>
+
+                          <h1 className='my-3'>Deskripsi Acara</h1>
+                          <div className="p-2 border border-indigo-900 text-xs h-44 medium:h-48 large:h-52">{state.desc}</div>
+
+                          <div className="text-center">
+                            <button className="w-full my-3 py-2 text-xs bg-blue-one text-white rounded-md" >Konfirmasi Booking</button>
+                            <button 
+                              onClick={handleBack}
+                              className="w-full text-xs text-blue-one rounded-md flex items-center justify-center" >
+                              <img src={icon_arrowLeft} alt="left" />
+                              Ubah tanggal dan waktu</button>
+                          </div>
+
+                          
+
+                        </div>
+                      )
+                      
+                    }
+
+                    
+      
+                    
       
                   </div>
                 )

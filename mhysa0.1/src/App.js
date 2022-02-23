@@ -11,6 +11,7 @@ import SignUp from './pages/SignUp';
 import PaymentClass from './pages/PaymentClass.';
 import DetailSpeaker from './pages/DetailSpeaker';
 import PaymentSpeaker from './pages/PaymentSpeaker';
+import MyClass from './pages/MyClass';
 
 function App() {
   return (
@@ -27,6 +28,10 @@ function App() {
           <Route path="/payment-class:id" element={<PaymentClass/>} />
           <Route path="/details-speaker:id" element={<DetailSpeaker/>} />
           <Route path="/payment-speaker:id" element={<PaymentSpeaker />} />
+          <Route path="/payment-speaker:id" element={<PaymentSpeaker />} />
+          <Route path="/myClass" element={<MyClass />} />
+
+
         </Routes>
       </BrowserRouter>
     

@@ -1,22 +1,7 @@
 {
     "popularClass": [
         {
-            "_id": "asd1293uasdads1",
-            "imageUrl": "image/img-ex.jpg",
-            "type": "UI / UX Design",
-            "date": "6/9/2021",
-            "title": "Introduction Figma Prototype",
-            "time": "12.00-14.00",
-            "members": 12,
-            "imageMentor": "image/mentor.jpg",
-            "nameMentor": "Michel Jhones",
-            "experienceJob": "Gojek, Dana",
-            "price": "180000",
-            "kind": "Design",
-            "acces": "1 Bulan"
-        },
-        {
-            "_id": "asd1293uasdads1",
+            "_id": "nikoardiaeffendy",
             "imageUrl": "image/img-card1.jpg",
             "type": "Programing",
             "date": "6/9/2021",
@@ -31,11 +16,11 @@
             "acces": "2 Bulan"
         },
         {
-            "_id": "asd1293uasdads1",
+            "_id": "danielwillyaneffendy",
             "imageUrl": "image/img-about.jpg",
             "type": "Digital Marketing",
             "date": "6/9/2021",
-            "title": "Marketing in Digital",
+            "title": "Concept Market Digital",
             "time": "08.00-10.00",
             "members": 9,
             "imageMentor": "image/mentor.jpg",
@@ -44,60 +29,98 @@
             "price": "230000",
             "kind": "Marketing",
             "acces": "1 Bulan"
+        },
+        {
+            "_id": "asd1293uasdads1",
+            "imageUrl": "image/img-about.jpg",
+            "type": "Digital Marketing",
+            "date": "6/9/2021",
+            "title": "Concept Market Digital",
+            "time": "08.00-10.00",
+            "members": 9,
+            "imageMentor": "image/mentor.jpg",
+            "nameMentor": "Marsyanda Rahmawati",
+            "experienceJob": "Traveloka",
+            "price": "230000",
+            "kind": "Marketing",
+            "acces": "1 Bulan"
+
         }
     ],
     "ourSpeakers": [
         {
-            "_id": "asd1293uasdads1",
+            "_id": "dikairiawan",
             "imageUrl": "image/mentor.jpg",
-            "name": "Ahmad Yusufanda",
-            "position": "Mentor Dikalearn",
-            "job": "Content Creation",
-            "iconSkills": [
-                {
-                    "icon": "image/icon_speaker.jpg",
-                    "descIcon": "Spekaker"
-                },
-                {
-                    "icon": "image/icon_design.jpg",
-                    "descIcon": "Design"
-                },
-                {
-                    "icon": "image/icon_userPersona.jpg",
-                    "descIcon": "Persona"
-                }
-            ],
-            "skills": "Design Thinking, Problem Solving, Empathy, User Persona"
-        },
-        {
-            "_id": "asd1293uasdads1",
-            "imageUrl": "image/mentor.jpg",
-            "name": "Reina Diana Dewi",
-            "position": "Head Mentor",
-            "job": "Management Members",
-            "iconSkills": [
-               
-                {
-                    "icon": "image/icon_design.jpg",
-                    "descIcon": "Design"
-                },
-                {
-                    "icon": "image/icon_userPersona.jpg",
-                    "descIcon": "Persona"
-                },
-                {
-                    "icon": "image/icon_presentation.jpg",
-                    "descIcon": "Meet"
-                }
-            ],
-            "skills": "Design Thinking, Problem Solving, Empathy, User Persona"
-        },
-        {
-            "_id": "asd1293uasdads1",
-            "imageUrl": "image/mentor.jpg",
-            "name": "Hardianto Sufani",
+            "name": "Dika Iriawan",
             "position": "CEO DikaLearn",
-            "job": "Product Manager",
+            "job": "Product Management",
+            "instagram": "@dikaIriawan",
+            "linked": "Dikairiawan",
+            "email": "dikaIriawan@gmail.com",
+            "price": 250000,
+            "languages": "Eng/Bahasa",
+            "bio": "Saya lulusan Universitas Teknologi Bandung jurusan teknik informatika. Tahun 2011 saya bekerja di gojek sebagai product managemen. 3 tahun setelahnya saya resign dan bekerja di dunia start up untuk mengasah skill saya agar lebih baik kedepannya. Saya mengisi waktu luang untuk sebagai speaker di acara-acara untuk memotivasi dan semangat bagi orang lain",
+            "star": 4,
+            "iconSkills": [
+                {
+                    "icon": "image/icon_speaker.jpg",
+                    "descIcon": "Speaker"
+                },
+                {
+                    "icon": "image/icon_design.jpg",
+                    "descIcon": "Design"
+                },
+                {
+                    "icon": "image/icon_userPersona.jpg",
+                    "descIcon": "Persona"
+                },
+                {
+                    "icon": "image/icon_presentation.jpg",
+                    "descIcon": "Meet"
+                }
+            ],
+            "skills": "Design Thinking, Problem Solving, Empathy, User Persona",
+            "strongPoint": "Berpengalaman lebih 2 tahun sebagai speaker di acara-acara besar dan memiliki komunitas atau organisasi yang bergerak di bidang pembicara. Berkarakter dan dapat mengifluence audience secara baik.",
+            "allPhoto": [
+                {
+                    "imageUrl": "image/img-speaker-skill1.jpg",
+                    "type": "image"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill1.jpg",
+                    "type": "image"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                }
+            ]
+        },
+        {
+            "_id": "nicoardiaeffendy",
+            "imageUrl": "image/mentor.jpg",
+            "name": "Nico Effendy",
+            "position": "CEO NC Corp",
+            "job": "Social Branding",
+            "instagram": "@niikoee",
+            "linked": "NicoEffendy",
+            "email": "nikoardia134@gmail.com",
+            "price": 10000000,
+            "languages": "Eng/Bahasa",
+            "bio": "Saya lulusan Universitas Muhammadyah Malang jurusan teknik informatika. Tahun 2023 berhasil menajalankan perusahaan bernilai 10 juta dolar dan mempunyai relasi lebih dari 1juta orang. Mendapatkan reward dari presiden sebagai CEO termuda yang memberi dampak ekonomi negeri.",
+            "star": 5,
             "iconSkills": [
                 {
                     "icon": "image/icon_speaker.jpg",
@@ -116,7 +139,90 @@
                     "descIcon": "Meet"
                 }
             ],
-            "skills": "Design Thinking, Problem Solving, Empathy, User Persona"
+            "skills": "Design Thinking, Problem Solving, Empathy, User Persona",
+            "strongPoint": "Dapat mempengaruhi banyak orang untuk mengubah untuk lebih baik lagi.",
+            "allPhoto": [
+                {
+                    "imageUrl": "image/img-speaker-skill1.jpg",
+                    "type": "image"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill1.jpg",
+                    "type": "image"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill1.jpg",
+                    "type": "image"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                }
+            ]
+        },
+        {
+            "_id": "ranamarsyanda",
+            "imageUrl": "image/mentor.jpg",
+            "name": "Rana Marsyanda",
+            "position": "CEO Myskincare",
+            "job": "Product Management",
+            "instagram": "@ranama",
+            "linked": "Ranamarsya",
+            "email": "ranama23@gmail.com",
+            "price": 550000,
+            "languages": "Eng/Bahasa",
+            "bio": "Saya lulusan Universitas Muhammadyah Malang jurusan teknik informatika. Tahun 2023 berhasil menajalankan perusahaan bernilai 10 juta dolar dan mempunyai relasi lebih dari 1juta orang. Mendapatkan reward dari presiden sebagai CEO termuda yang memberi dampak ekonomi negeri.",
+            "star": 5,
+            "iconSkills": [
+                {
+                    "icon": "image/icon_speaker.jpg",
+                    "descIcon": "Spekaker"
+                },
+                {
+                    "icon": "image/icon_design.jpg",
+                    "descIcon": "Design"
+                },
+                {
+                    "icon": "image/icon_userPersona.jpg",
+                    "descIcon": "Persona"
+                },
+                {
+                    "icon": "image/icon_presentation.jpg",
+                    "descIcon": "Meet"
+                }
+            ],
+            "skills": "Design Thinking, Problem Solving, Empathy, User Persona",
+            "strongPoint": "Dapat mempengaruhi banyak orang untuk mengubah untuk lebih baik lagi.",
+            "allPhoto": [
+                {
+                    "imageUrl": "image/img-speaker-skill1.jpg",
+                    "type": "image"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill1.jpg",
+                    "type": "image"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                },
+                {
+                    "imageUrl": "image/img-speaker-skill2.jpg",
+                    "type": "video"
+                }
+            ]
         }
     ],
     "testimoni": {

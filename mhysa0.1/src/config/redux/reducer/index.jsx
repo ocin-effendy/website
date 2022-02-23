@@ -1,5 +1,6 @@
 const initialState = {
     statusModal: '',
+    acces:'',
 }
 
 const rootReducer = (state = initialState, action ) => {
@@ -7,6 +8,11 @@ const rootReducer = (state = initialState, action ) => {
         return {
             ...state,
             statusModal: action.value
+        }
+    }else if(action.type === 'ACCES'){
+        return {
+            ...state,
+            acces: action.value
         }
     }
     return state;
